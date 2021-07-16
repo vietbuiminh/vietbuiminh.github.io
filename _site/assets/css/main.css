@@ -34,16 +34,12 @@ img {
   background: radial-gradient(#000c 0%, #000d),
     url("../../img/cover.jpg") 50% / cover #0000;
 }
-/*
+
 .art-bg {
   background: radial-gradient(#000c 75%, #000d),
     url("../../img/art-cover.png") 50% / cover #0000;
 }
-*/
-.art-bg {
-  background: radial-gradient(#000c 75%, #000d),
-    url("../../img/coding-cover.png") 50% / cover #0000;
-}
+
 .coding-bg {
   background: radial-gradient(#000c 75%, #000d),
     url("../../img/coding-cover.png") 50% / cover #0000;
