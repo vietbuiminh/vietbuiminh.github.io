@@ -1,13 +1,8 @@
----
-title: coding
-layout: page
----
-
-A few of my featured projects.
+I"{<p>A few of my featured projects.</p>
 
 <div class="gallery">
     <a target="_blank" href="./img/lulac5285.png">
-        <img src="./img/lulac5285.png" alt="Snippet of the LULAC 5285 website">
+        <img src="./img/lulac5285.png" alt="Snippet of the LULAC 5285 website" />
     </a>
     <div class="desc">
         Coding website from EDGE internship.
@@ -24,7 +19,7 @@ A few of my featured projects.
 </div>
 <div class="gallery">
     <a target="_blank" href="./img/bassstreet.jpeg">
-        <img src="./img/bassstreet.jpeg" alt="Snippet of the Bass Street website">
+        <img src="./img/bassstreet.jpeg" alt="Snippet of the Bass Street website" />
     </a>
     <div class="desc">
         Coding website from EDGE internship. The project is on the design that had been given by Bass Street.
@@ -41,7 +36,7 @@ A few of my featured projects.
 </div>
 <div class="gallery">
     <a target="_blank" href="./img/coolqc.png">
-        <img src="./img/coolqc.png" alt="Snippet of the Cool QC redesign website home page">
+        <img src="./img/coolqc.png" alt="Snippet of the Cool QC redesign website home page" />
     </a>
     <div class="desc">
         Redesign the website volunteeringly for the Cool QC. Inspired by Human of New York.
@@ -59,7 +54,7 @@ A few of my featured projects.
 </div>
 <div class="gallery">
     <a target="_blank" href="img/coding-cover.png">
-        <img src="img/coding-cover.png" alt="Screenshot of the webapp for The 70s Project">
+        <img src="img/coding-cover.png" alt="Screenshot of the webapp for The 70s Project" />
     </a>
     <div class="desc">
         A web app that let the user explore the war events that started in the 70s which
@@ -72,18 +67,15 @@ A few of my featured projects.
             </span>
             <span class="tags">
                 <a class="tag link" href="./coding.html">#coding</a>
-                <a class="tag link" target="_blank"
-                    href="https://hackfromthepast.devpost.com/project-gallery">#winner</a>
+                <a class="tag link" target="_blank" href="https://hackfromthepast.devpost.com/project-gallery">#winner</a>
                 <a class="tag link" target="_blank" href="https://hackfromthepast.devpost.com">#hackathon</a>
             </span>
         </span>
     </div>
 </div>
 <div class="gallery">
-    <a target="_blank"
-        href="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/484/213/datas/original.jpg">
-        <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/484/213/datas/original.jpg"
-            alt="Screenshot Stocksify app">
+    <a target="_blank" href="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/484/213/datas/original.jpg">
+        <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/484/213/datas/original.jpg" alt="Screenshot Stocksify app" />
     </a>
     <div class="desc">
         Don't know where to start with investing? Start researching with Stocksify, it gives the big picture
@@ -100,3 +92,4 @@ A few of my featured projects.
         </span>
     </div>
 </div>
+:ET
