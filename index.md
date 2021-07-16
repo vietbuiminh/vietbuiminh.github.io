@@ -44,31 +44,7 @@ Feel free to browse around for future / <a class="link hover-underline-animation
 <a class="link hover-underline-animation" href="coding.html">more &#x2192;</a>
 
 ## ART
-<div class="gallery">
-        <a target="_blank" href="img/art-cover.png">
-                <img src="img/art-cover.png"
-                alt="Series of computer generated shapes in the form of natural sequence of Fibonacci">
-        </a>
-        <div class="desc">
-                The fascinating mathematic structures, the patterns derived from nature related to the
-                renowned Fibonacci, and the spiral Phyllotaxis. The artwork was created using Netlogo3D with
-                raytracing
-                and x3d extensions. This piece is my Final Project for CSC150.
-                <span class="bottomrow">
-                <span class="tags">
-                        <a class="button link" target="_blank"
-                        href="https://sites.google.com/augustana.edu/vietb/projects/maths-beauty">&#x2192;</a>
-                </span>
-                        <span class="tags">
-                                <a class="tag link" href="coding.html">#coding</a>
-                                <a class="tag link" href="art.html">#art</a>
-                                <a class="tag link">#3D</a>
-                                <a class="tag link">#generative</a>
-                        </span>
-                </span>
-        </div>
-</div>
-<a class="link hover-underline-animation" href="art.html">more &#x2192;</a>
+{% include succulent.html %}
 
 <br>
 Feeling adventurous? I enjoy going around the country to different national parks. Best overall are Mt.Rainier and Tongass.
