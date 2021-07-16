@@ -6,11 +6,7 @@
     </div>
 </header>
 <main>
-    <tag><i>about</i></tag>
+    <tag><i>{{ page.title }}</i></tag>
     {{ content }}
-    
-    <hr size="1px" width="100%" color="#ccc">
-    <tag style="font-size: 0.7em;">last update on {{ site.time | date_to_long_string: "ordinal" }}</tag>
-</main>
 
 {% include footer.html %}
