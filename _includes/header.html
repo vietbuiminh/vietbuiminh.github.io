@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}">
+    <link rel="stylesheet" href="assets/css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap"
@@ -17,3 +17,17 @@
 <body>
     <header class="{{ page.title }}-bg">
         {% include nav.html %}
+        <div class="signature">
+            {% if page.url == "/" %}
+            {% include svg.html %}
+            {% else %}
+            <h1>{{ page.title | upcase }}</h1>
+            {% endif %}
+
+        </div>
+
+        <div class="selfscript">
+            <span class="brief">code + art = ✨</span>
+        </div>
+    </header>
+    <main>

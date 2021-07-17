@@ -1,6 +1,6 @@
 ---
 title: art
-layout: page
+layout: main
 ---
 
 A few of my featured projects.
@@ -11,7 +11,7 @@ A few of my featured projects.
             alt="A Series of computer generated shapes in the form of natural sequence Fibonacci" />
     </a>
     <div class="desc">
-        The fascinating mathematic structures, the patterns derived from nature related to the renowned Fibonacci, and the spiral Phyllotaxis. The artwork was created using Netlogo3D with raytracing and x3d extensions. This piece is my Final Project for CSC150.
+        <p>The fascinating mathematic structures, the patterns derived from nature related to the renowned Fibonacci, and the spiral Phyllotaxis. The artwork was created using Netlogo3D with raytracing and x3d extensions. This piece is my Final Project for CSC150.</p>
         <span class="bottomrow">
             <span class="tags">
                 <a class="button link" target="_blank"
@@ -31,10 +31,10 @@ A few of my featured projects.
             alt="A Series of computer generated shapes in the form of natural sequence Fibonacci" />
     </a>
     <div class="desc">
-        Inspired by the foliage and the flora of the rain forest of the state of Washington. One of the
+        <p>Inspired by the foliage and the flora of the rain forest of the state of Washington. One of the
         centerpieces of the artwork is the fern feature. The ferns are the characteristic of the
         all-year-round rain. The rain always brings up the scent of the wooded forest. Every piece in the
-        artwork reminds me of every hike through the wood.
+        artwork reminds me of every hike through the wood.</p>
         <span class="bottomrow">
             <span class="tags">
                 <a class="button link" target="_blank"
@@ -49,4 +49,3 @@ A few of my featured projects.
 </div>
 I will put more projects up here soon. It's just the matter of me coding the site out 😁
 <br>
-

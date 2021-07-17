@@ -1,6 +1,6 @@
 ---
 title: coding
-layout: page
+layout: main
 ---
 
 A few of my featured projects.
@@ -10,7 +10,7 @@ A few of my featured projects.
         <img src="./img/lulac5285.png" alt="Snippet of the LULAC 5285 website">
     </a>
     <div class="desc">
-        Coding website from EDGE internship.
+        <p>Coding website from EDGE internship.</p>
         <span class="bottomrow">
             <span class="tags">
                 <a class="button link" target="_blank" href="https://webgeeksrus.com/test/lulac5285">
@@ -27,7 +27,7 @@ A few of my featured projects.
         <img src="./img/bassstreet.jpeg" alt="Snippet of the Bass Street website">
     </a>
     <div class="desc">
-        Coding website from EDGE internship. The project is on the design that had been given by Bass Street.
+        <p>Coding website from EDGE internship. The project is on the design that had been given by Bass Street.</p>
         <span class="bottomrow">
             <span class="tags">
                 <a class="button link" target="_blank" href="https://vietbuiminh.github.io/EDGE-Project-1/">
@@ -44,7 +44,7 @@ A few of my featured projects.
         <img src="./img/coolqc.png" alt="Snippet of the Cool QC redesign website home page">
     </a>
     <div class="desc">
-        Redesign the website volunteeringly for the Cool QC. Inspired by Human of New York.
+        <p>Redesign the website volunteeringly for the Cool QC. Inspired by Human of New York.</p>
         <span class="bottomrow">
             <span class="tags">
                 <a class="button link" target="_blank" href="https://vietbuiminh.github.io/coolQC/">
@@ -62,9 +62,9 @@ A few of my featured projects.
         <img src="img/coding-cover.png" alt="Screenshot of the webapp for The 70s Project">
     </a>
     <div class="desc">
-        A web app that let the user explore the war events that started in the 70s which
+        <p>A web app that let the user explore the war events that started in the 70s which
             snippet of information from the war with the interaction with geography through the map provided by
-            MapBox.
+            MapBox.</p>
         <span class="bottomrow">
             <span class="tags">
                 <a class="button link" target="_blank" href="https://devpost.com/software/the-70s-project">
@@ -86,8 +86,8 @@ A few of my featured projects.
             alt="Screenshot Stocksify app">
     </a>
     <div class="desc">
-        Don't know where to start with investing? Start researching with Stocksify, it gives the big picture
-        of the stock or the company you interested in just input the stock CODE into the box and search.
+        <p>Don't know where to start with investing? Start researching with Stocksify, it gives the big picture
+        of the stock or the company you interested in just input the stock CODE into the box and search.</p>
         <span class="bottomrow">
             <span class="tags">
                 <a class="button link" target="_blank" href="https://devpost.com/software/stocking-m2z3vh">

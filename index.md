@@ -16,16 +16,18 @@ Feel free to browse around for future / <a class="link hover-underline-animation
         class="link hover-underline-animation" href="http://webgeeksrus.com/test/her2o/">past</a> projects.
 <br>
 <br>
+
 ## CODING
+
 <div class="gallery">
         <a target="_blank" href="img/coding-cover.png">
                 <img src="img/coding-cover.png"
                 alt="Screen shot of the webapp that let the user explores wars events in the 70s">
         </a>
         <div class="desc">
-                A web app that let the user explore the war events that started in the 70s which
+                <p>A web app that let the user explore the war events that started in the 70s which
                 snippet of information from the war with the interaction with geography through the map provided by
-                MapBox.
+                MapBox.</p>
                 <span class="bottomrow">
                 <span class="tags">
                         <a class="button link" target="_blank"
@@ -44,7 +46,8 @@ Feel free to browse around for future / <a class="link hover-underline-animation
 <a class="link hover-underline-animation" href="coding.html">more &#x2192;</a>
 
 ## ART
-{% include succulent.html %}
+
+{% include_relative _site/content/art/succulent.html %}
 
 <br>
 Feeling adventurous? I enjoy going around the country to different national parks. Best overall are Mt.Rainier and Tongass.
