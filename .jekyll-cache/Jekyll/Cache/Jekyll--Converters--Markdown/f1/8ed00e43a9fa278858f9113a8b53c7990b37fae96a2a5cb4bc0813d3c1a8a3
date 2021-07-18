@@ -1,0 +1,13 @@
+I"ç<h1 id="jewel-of-forest">JEWEL of FOREST</h1>
+
+<p><img src="/img/fern.png" alt="A Series of computer generated shapes in the form of natural sequence Fibonacci" /></p>
+
+<p>Inspired by the foliage and the flora of the rain forest of the state of Washington. One of the centerpieces of the artwork is the fern feature. The ferns are the characteristic of the all-year-round rain. The rain always brings up the scent of the wooded forest. Every piece in the artwork reminds me of every hike through the wood.</p>
+
+<p>You can check out the project <a class="link hover-underline-animation" href="https://sites.google.com/augustana.edu/vietb/projects/jewel-forest" target="_blank">here</a>.</p>
+
+<p>The algorithm uses to create the fern is from this procedure bellow:</p>
+
+<script style="max-height: 100px; overflow: scroll" src="https://gist.github.com/vietbuiminh/de867124262ae589fec4dbe733b96649.js"></script>
+
+:ET

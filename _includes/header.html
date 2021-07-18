@@ -6,28 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ site.title }}{% if page.title != "about" %}: {{ page.title }}{% endif %}</title>
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="{{ " /assets/css/main.css" | relative_url }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-    <link rel="shortcut icon" href="./img/SVG/favicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ " /img/SVG/favicon.svg" | relative_url }}" type="image/x-icon">
 </head>
 
 <body>
+    {% if page.title == "about" or page.title == "art" or page.title == "coding" %}
     <header class="{{ page.title }}-bg">
-        {% include nav.html %}
-        <div class="signature">
-            {% if page.url == "/" %}
-            {% include svg.html %}
-            {% else %}
-            <h1>{{ page.title | upcase }}</h1>
+        {% else %}
+        <style>
+            .page-bg {
+                background: radial-gradient(#000c 0%, #000d),
+                url("{{ page.image | relative_url }}") 50% / cover #0000;
+            }
+        </style>
+        <header class="page-bg">
             {% endif %}
+            {% include nav.html %}
+            <div class="signature">
+                {% if page.url == "/" %}
+                {% include svg.html %}
+                {% else %}
+                <h1>{{ page.categories[0] | upcase }}</h1>
+                {% endif %}
 
-        </div>
+            </div>
 
-        <div class="selfscript">
-            <span class="brief">code + art = ✨</span>
-        </div>
-    </header>
-    <main>
+            <div class="selfscript">
+                <span class="brief">code + art = ✨</span>
+            </div>
+        </header>
+        <main>
