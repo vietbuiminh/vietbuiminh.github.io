@@ -17,38 +17,33 @@ Feel free to browse around for future / <a class="link hover-underline-animation
 <br>
 <br>
 
-## CODING
+{% for category in site.categories %}
+
+## {{ category[0] | upcase }}
+
+{% assign post = category[1][-1] %}
 
 <div class="gallery">
-        <a target="_blank" href="img/coding-cover.png">
-                <img src="img/coding-cover.png"
-                alt="Screen shot of the webapp that let the user explores wars events in the 70s">
-        </a>
-        <div class="desc">
-                <p>A web app that let the user explore the war events that started in the 70s which
-                snippet of information from the war with the interaction with geography through the map provided by
-                MapBox.</p>
-                <span class="bottomrow">
-                <span class="tags">
-                        <a class="button link" target="_blank"
-                        href="https://devpost.com/software/the-70s-project">&#x2192;</a>
-                </span>
-                        <span class="tags">
-                                <a class="tag link" href="coding.html">#coding</a>
-                                <a class="tag link" target="_blank"
-                                href="https://hackfromthepast.devpost.com/project-gallery">#winner</a>
-                                <a class="tag link" target="_blank" href="https://hackfromthepast.devpost.com">#hackathon</a>
-                                <a class="tag link">#MapBox</a>
-                        </span>
-                </span>
-        </div>
+    <a target="_blank" href="{{ post.image }}">
+        <img src="{{ post.image }}" alt="{{ post.img-alt }}" />
+    </a>
+    <div class="desc">
+        <p>{{ post.description }}</p>
+        <span class="bottomrow">
+            <span class="tags">
+                <a class="button link" target="_blank" href="{{ post.link }}">
+                    read more &#x2192;</a>
+            </span>
+            <span class="tags">
+                {% for tag in post.tags %}
+                <a class="tag link">#{{ tag }}</a>
+                {% endfor %}
+            </span>
+        </span>
+    </div>
 </div>
-<a class="link hover-underline-animation" href="coding.html">more &#x2192;</a>
-
-## ART
-
-{% include_relative _site/content/art/succulent.html %}
-
+<a class="link hover-underline-animation" href="{{category[0]}}.html">more &#x2192;</a>
+{% endfor %}
 <br>
 Feeling adventurous? I enjoy going around the country to different national parks. Best overall are Mt.Rainier and Tongass.
 <div class="imgrow">

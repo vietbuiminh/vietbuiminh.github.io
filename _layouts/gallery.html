@@ -1,20 +1,18 @@
 <div class="gallery">
     <a target="_blank" href="{{ page.image }}">
-        <img src="{{ page.image }}"
-            alt="{{ page.img-alt }}" />
+        <img src="{{ page.image }}" alt="{{ page.img-alt }}" />
     </a>
     <div class="desc">
         <p>{{ page.description }}</p>
         <span class="bottomrow">
             <span class="tags">
-                <a class="button link" target="_blank"
-                    href="{{ page.link }}">
+                <a class="button link" target="_blank" href="{{ page.link }}">
                     read more &#x2192;</a>
             </span>
             <span class="tags">
-            {% for tag in page.tags %}
+                {% for tag in page.tags %}
                 <a class="tag link">#{{ tag }}</a>
-            {% endfor %}
+                {% endfor %}
             </span>
         </span>
     </div>
