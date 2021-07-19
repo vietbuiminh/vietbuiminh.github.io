@@ -1,0 +1,140 @@
+I"ç<style>
+    p > img {
+        width: 50%;
+    }
+    @media (max-width: 68em) {
+        p > img {
+            width: 100%;
+        }
+    }
+</style>
+
+<h1 id="saola-environmental-club">Saola Environmental Club</h1>
+<p><img src="/assets/img/saola/legacy.png" alt="Sao La Environmental Club poster" /></p>
+
+<p>Some of graphics for SEC Ho Chi Minh City. The club is the birth of my passion in designing. The skills in design I got for today is from the time I join the club as the head designer.</p>
+
+<h2 id="graphics">GRAPHICS:</h2>
+<div class="flex">
+    <style>
+        .gallery {
+            flex-direction: column; 
+            justify-content: space-between;
+            position: relative; 
+            width: 340px;
+            margin-right: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: 300px;
+            object-position: center center;
+            border-right: none;
+            border-bottom: 1px solid #ccc;
+        }
+        .gallery h2 {
+            padding: 0 10px 10px;
+            font-size: 30px;
+            margin-top: 0; 
+            line-height: 1em;
+        }
+        .gallery p {
+            padding: 0 10px 10px;
+            font-size: 20px;
+        }
+        .gallery .link {
+            text-align: center;
+        }
+    </style>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</div>
+:ET

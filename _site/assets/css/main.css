@@ -27,6 +27,7 @@ p {
 p > img {
   position: relative;
   object-fit: cover;
+  max-height: 1000px;
   width: 100%;
   border: 1px solid #ccc;
   border-radius: 10px;
@@ -148,6 +149,7 @@ main > h1,
 main > h2,
 main > h3,
 main > h4 {
+  padding: 10px 0 30px 0;
   opacity: 0;
   animation: h1transition 0.5s ease-out forwards;
   animation-delay: calc(var(--order) * 100ms);
@@ -239,6 +241,7 @@ footer {
   margin-bottom: 0.9em;
   border: 1px solid #ccc;
   border-radius: 10px;
+  position: relative;
 }
 
 .gallery:hover,
@@ -249,6 +252,10 @@ footer {
 .gallery p {
   margin: 0;
   padding-bottom: 0.5em;
+}
+
+.gallery a {
+  max-height: 300px;
 }
 
 .gallery img {
@@ -316,6 +323,11 @@ footer {
 
 .hover-underline-animation:hover::after {
   transform: scaleX(1);
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* IMPORTANT KEEP */
@@ -452,6 +464,10 @@ footer {
   .contact {
     flex-wrap: wrap;
   }
+
+  p > img {
+    max-height: 500px;
+  }
 }
 
 @media (max-width: 45em) {
@@ -468,6 +484,9 @@ footer {
   h1 {
     font-size: 4rem;
   }
+  main > h1 {
+    font-size: 10vw;
+}
 }
 
 /*

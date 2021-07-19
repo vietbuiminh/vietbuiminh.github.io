@@ -1,0 +1,96 @@
+I"9<p>A few of my featured projects.</p>
+
+<div style="animation-delay:calc(0 * 0.2s);" class="gallery">
+    <a target="_blank" href="/img/art-cover.png">
+        <img src="/img/art-cover.png" alt="" />
+    </a>
+    <div class="desc">
+        <h2 style="margin-top: 0; line-height: 1em;">MATH'S BEAUTY IN DESERT</h2>
+        <p>The fascinating mathematic structures, the patterns derived from nature related to the renowned Fibonacci, and the spiral Phyllotaxis. The artwork was created using Netlogo3D with raytracing and x3d extensions. This piece is my Final Project for CSC150.</p>
+        <span class="bottomrow">
+            <span class="tags">
+                <a class="button link" href="/art/succulent/">
+                    read more &#x2192;</a>
+            </span>
+            <span class="tags">
+                
+                <a class="tag link">#coding</a>
+                
+                <a class="tag link">#art</a>
+                
+            </span>
+        </span>
+    </div>
+</div>
+
+<div style="animation-delay:calc(1 * 0.2s);" class="gallery">
+    <a target="_blank" href="/img/fern.png">
+        <img src="/img/fern.png" alt="" />
+    </a>
+    <div class="desc">
+        <h2 style="margin-top: 0; line-height: 1em;">JEWEL OF FOREST</h2>
+        <p>Inspired by the foliage and the flora of the rain forest of the state of Washington. One of the centerpieces of the artwork is the fern feature. The ferns are the characteristic of the all-year-round rain. The rain always brings up the scent of the wooded forest. Every piece in the artwork reminds me of every hike through the wood.</p>
+        <span class="bottomrow">
+            <span class="tags">
+                <a class="button link" href="/art/fern/">
+                    read more &#x2192;</a>
+            </span>
+            <span class="tags">
+                
+                <a class="tag link">#coding</a>
+                
+                <a class="tag link">#art</a>
+                
+            </span>
+        </span>
+    </div>
+</div>
+
+<div style="animation-delay:calc(2 * 0.2s);" class="gallery">
+    <a target="_blank" href="/assets/img/munsg/2019/2nPoster.png">
+        <img src="/assets/img/munsg/2019/2nPoster.png" alt="" />
+    </a>
+    <div class="desc">
+        <h2 style="margin-top: 0; line-height: 1em;">MODEL UNITED NATIONS SAIGON</h2>
+        <p>Joining MUNSG also pushed me in a more technical and advanced design in a more formal events organized by MUNSG.</p>
+        <span class="bottomrow">
+            <span class="tags">
+                <a class="button link" href="/art/munsg/">
+                    read more &#x2192;</a>
+            </span>
+            <span class="tags">
+                
+                <a class="tag link">#art</a>
+                
+                <a class="tag link">#design</a>
+                
+            </span>
+        </span>
+    </div>
+</div>
+
+<div style="animation-delay:calc(3 * 0.2s);" class="gallery">
+    <a target="_blank" href="/assets/img/saola/legacy.png">
+        <img src="/assets/img/saola/legacy.png" alt="" />
+    </a>
+    <div class="desc">
+        <h2 style="margin-top: 0; line-height: 1em;">SAOLA ENVIRONMENTAL CLUB</h2>
+        <p>Some of graphics for SEC Ho Chi Minh City. The club is the birth of my passion in designing. The skills in design I got for today is from the time I join the club as the head designer.</p>
+        <span class="bottomrow">
+            <span class="tags">
+                <a class="button link" href="/art/saola/">
+                    read more &#x2192;</a>
+            </span>
+            <span class="tags">
+                
+                <a class="tag link">#art</a>
+                
+                <a class="tag link">#design</a>
+                
+            </span>
+        </span>
+    </div>
+</div>
+
+<p>I will put more projects up here soon. It’s just the matter of me coding the site out 😁</p>
+:ET

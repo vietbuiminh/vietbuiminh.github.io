@@ -6,9 +6,10 @@ categories: [coding]
 
 A few of my featured projects.
 {% assign i = 0 %}
-{% for post in site.categories.coding reversed %}
+{% assign sorted = site.categories.coding | sort: 'date' | reverse  %}
+{% for post in sorted %}
 
-<div style="animation-delay:calc({% increment i %} * 0.3s);" class="gallery">
+<div style="animation-delay:calc({% increment i %} * 0.2s);" class="gallery">
     <a target="_blank" href="{{ post.image }}">
         <img src="{{ post.image }}" alt="{{ post.img-alt }}" />
     </a>

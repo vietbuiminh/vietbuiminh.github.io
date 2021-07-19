@@ -5,11 +5,9 @@ layout: main
 
 # CREATIVE CODER & STE<a style="text-transform: capitalize" class="link coloranimate hover-underline-animation" href="/art">Art</a>M ADVOCATE
 
-Việt Bùi, a creative artist & coder, a student, a naturalist, and a global citizen. Born and
-raised in Ho Chi Minh City (HCMC), Vietnam. Grew up in an "engineer household", but Viet developed my
-interest in
-technology and drawing at an early age. Graphic artist for clubs, and non-profit
-organizations in HCMC and the United States. Coder in a few hackathons, and coder by everyday.
+Việt Bùi, a creative artist & coder, a student, a naturalist, and a global citizen. Born and raised in Ho Chi Minh City (HCMC), Vietnam.
+
+Using art to influence people. Graphic artist for clubs, and non-profit organizations in HCMC and the United States. Coder in a few hackathons, and coder by everyday.
 
 Feel free to browse around for future / <a class="link hover-underline-animation"
         href="https://vietbuiminh.github.io/EDGE-Coding-Intern/lulac/">current</a> / <a
@@ -20,10 +18,10 @@ Feel free to browse around for future / <a class="link hover-underline-animation
 {% for category in site.categories reversed %}
 
 ## {{ category[0] | upcase }}
+{% assign sorted = category[1] | sort: 'date' | reverse  %}
+{% assign post = sorted[0] %}
 
-{% assign post = category[1][-1] %}
-
-<div class="gallery" style="animation-delay:calc({% increment i %} * 0.2s);" >
+<div class="gallery" style="animation-delay:calc({% increment i %} * 0.1s);" >
     <a target="_blank" href="{{ post.image }}">
         <img src="{{ post.image }}" alt="{{ post.img-alt }}" />
     </a>
