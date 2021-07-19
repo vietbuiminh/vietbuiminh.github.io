@@ -17,7 +17,7 @@
 
 <body>
     {% if page.title == "about" or page.title == "art" or page.title == "coding" %}
-    <header class="{{ page.title }}-bg">
+    <header class="{{ page.title }}-bg lazy">
         {% else %}
         <style>
             .page-bg {
@@ -25,7 +25,7 @@
                 url("{{ page.image | relative_url }}") 50% / cover #0000;
             }
         </style>
-        <header class="page-bg">
+        <header class="page-bg lazy">
             {% endif %}
             {% include nav.html %}
             <div class="signature">
