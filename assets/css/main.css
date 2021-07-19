@@ -124,7 +124,7 @@ main > p,
 .gallery {
   opacity: 0;
   animation: maintransition 0.5s ease-out forwards;
-  animation-delay: 0.5s;
+  animation-delay: 0.3s;
 }
 
 .gallery {
