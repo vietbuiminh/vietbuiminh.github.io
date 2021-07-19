@@ -1,4 +1,4 @@
-I"„<style>
+I"þ<style>
     .gallery {
         flex-direction: column; 
         justify-content: space-between;
@@ -27,14 +27,6 @@
     }
     .gallery .link {
         text-align: center;
-    }
-    p > img {
-        width: 50%;
-    }
-    @media (max-width: 68em) {
-        p > img {
-            width: 100%;
-        }
     }
 </style>
 
@@ -177,6 +169,24 @@
     
         
     
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
 </div>
 <h3>2019</h3>
 <div class="flex">
@@ -219,6 +229,24 @@
                     <img src="/assets/img/munsg/2019/humanrights.png" alt="" />
                 </a>
             </div>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
         
     
         
