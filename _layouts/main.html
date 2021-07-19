@@ -1,6 +1,5 @@
 {% include header.html %}
-
-<tag><i>{{ page.categories }}</i></tag>
+<tag style="font-size: 0.9em"><i>{{ page.date | date: "%Y-%m-%d" }}</i></tag>
 {{ content }}
 
 {% include footer.html %}

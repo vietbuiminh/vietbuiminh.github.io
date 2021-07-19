@@ -21,14 +21,17 @@ body {
 }
 
 p {
-  margin: 1em 0;
+  margin: 0 0 1em 0;
   line-height: 1.3em;
 }
 p > img {
   position: relative;
   object-fit: cover;
   width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
 }
+
 img {
   max-width: 1920px;
 }
@@ -104,15 +107,28 @@ nav {
 .signature h1 {
   color: #fff;
   font-size: 6vw;
-  transition: opacity 1s ease-in;
-  animation: h1title 3s ease;
-  animation-fill-mode: forwards;
+  animation: moveup 1s ease-out forwards;
 }
 
 main,
 footer {
   display: block;
   margin: 0 0 0 40%;
+}
+main {
+  position: relative;
+  min-height: 90vh;
+  overflow: hidden;
+}
+main > p,
+.gallery {
+  opacity: 0;
+  animation: maintransition 0.5s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+.gallery {
+  animation-delay: 0.8s;
 }
 
 h1 {
@@ -141,11 +157,11 @@ h4,
 h5,
 h6 {
   opacity: 0;
-  line-height: 0.7;
-  margin: 1rem 0 1rem 0;
+  line-height: 0.7em;
+  padding: 0 0 0.3em 0;
   font-weight: 900;
-  animation: h1transition 1s ease-out forwards;
-  animation-delay: calc(var(--order) * 300ms);
+  animation: h1transition 0.5s ease-out forwards;
+  animation-delay: calc(var(--order) * 100ms);
 }
 
 .link,
@@ -156,6 +172,7 @@ h6 {
 
 h1 {
   font-size: 3em;
+  text-transform: uppercase;
 }
 
 .imgrow {
@@ -221,8 +238,9 @@ footer {
 }
 
 #modifiedDate {
-  display: flex;
-  justify-content: flex-end;
+  position: absolute;
+  bottom: 0.5em;
+  right: 1.5em;
   text-align: right;
 }
 /* Image Gallery */
@@ -354,6 +372,28 @@ footer {
   to {
     opacity: 1;
     transform: translateX(0%);
+  }
+}
+
+@keyframes maintransition {
+  from {
+    opacity: 0;
+    transform: translateX(5%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@keyframes moveup {
+  from {
+    opacity: 0;
+    transform: translateY(200%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
   }
 }
 

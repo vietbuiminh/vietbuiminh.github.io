@@ -2,3 +2,5 @@ name: vietbui
 title: "vietbui"
 permalink: /:categories/:title/
 baseurl: /
+- name: Jekyll Actions
+  uses: helaili/jekyll-action@2.2.0
