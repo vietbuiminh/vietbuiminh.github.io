@@ -1,4 +1,4 @@
-I"J<style>
+I"f<style>
     .gallery {
         flex-direction: column; 
         justify-content: space-between;
@@ -229,6 +229,8 @@
     
         
     
+        
+    
 </div>
 <h3>2019</h3>
 <div class="flex">
@@ -313,6 +315,8 @@
                     <img src="/assets/img/munsg/2019/humanrights.png" alt="" />
                 </a>
             </div>
+        
+    
         
     
         
