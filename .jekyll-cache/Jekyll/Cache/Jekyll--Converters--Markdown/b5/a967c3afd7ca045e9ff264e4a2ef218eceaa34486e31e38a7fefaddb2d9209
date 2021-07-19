@@ -1,66 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Begin Jekyll SEO tag v2.7.1 -->
-<meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="art" />
-<meta property="og:locale" content="en_US" />
-<meta property="og:site_name" content="vietbui" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="art" />
-<script type="application/ld+json">
-{"headline":"art","@type":"WebPage","url":"/art/","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-    <title>vietbui: art</title>
-    <link rel="stylesheet" href=" /assets/css/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <link rel="shortcut icon" href=" /img/SVG/favicon.svg" type="image/x-icon">
-</head>
-
-<body>
-    
-    <header class="art-bg">
-        
-            <nav id="nav-placeholder">
-    <span class="homelink">
-        <img src="/img/ms-ninja-cat-emoji.png" alt="ninja cat emoji" width="24px" height="24px">
-        <!--id="active"-->
-        <a href="/">vietbui</a>
-    </span>
-    <span class="navlinks">
-        <a class="coding-active hover-underline-animation" href="/coding">coding</a>
-        <div class="divider">/</div>
-        <a class="art-active hover-underline-animation" href="/art">art</a>
-        <!--
-        <div class="divider">/</div>
-        <a class="hover-underline-animation" href="">writing</a>
-        <div class="divider">/</div>
-        <a class="hover-underline-animation" href="">about</a>
-        -->
-    </span>
-</nav>
-            <div class="signature">
-                
-                <h1>ART</h1>
-                
-
-            </div>
-
-            <div class="selfscript">
-                <span class="brief">code + art = ✨</span>
-            </div>
-        </header>
-        <main>
-<tag style="font-size: 0.9em"><i></i></tag>
-<p>A few of my featured projects.</p>
+I"A<p>A few of my featured projects.</p>
 
 <div style="animation-delay:calc(0 * 0.2s);" class="gallery">
     <a target="_blank" href="/img/art-cover.png">
@@ -226,22 +164,4 @@
 </div>
 
 <p>I will put more projects up here soon. It’s just the matter of me coding the site out 😁</p>
-
-
-<tag id="modifiedDate" style="font-size: 0.7em;">last update on 19th July 2021</tag>
-</main>
-<footer id="footer-placeholder">
-    <span class="contact">
-        <a class="link hover-underline-animation" href="https://github.com/vietbuiminh" target="_blank">github</a>
-        <div class="divider">/</div>
-        <a class="link hover-underline-animation" href="mailto:vietbui20@augustana.edu" target="_blank">email</a>
-        <div class="divider">/</div>
-        <a class="link hover-underline-animation" href="https://devpost.com/vietbuiminh" target="_blank">devpost</a>
-    </span>
-
-    <span class="text">Made with 💖 by Việt</span>
-</footer>
-<script src=" /assets/js/lazy-img-loading.js""></script>
-</body>
-
-</html>
+:ET
