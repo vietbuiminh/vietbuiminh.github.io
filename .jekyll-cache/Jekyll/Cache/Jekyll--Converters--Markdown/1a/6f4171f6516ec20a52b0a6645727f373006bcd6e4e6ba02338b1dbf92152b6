@@ -1,10 +1,14 @@
-I"²<style>
+I"(<style>
     .gallery {
         flex-direction: column; 
         justify-content: space-between;
         position: relative; 
         width: 230px;
         margin-right: 20px;
+    }
+    .gallery a {
+        width: 100%;
+        height: 100%;
     }
     .gallery img {
         width: 100%;
@@ -58,7 +62,7 @@
         
             <div class="gallery">
                 <a target="_blank" href="/assets/img/hs/stadium/Bear-Rose-Barn.png">
-                    <img src="/assets/img/hs/stadium/Bear-Rose-Barn.png" alt="graphics from saola" />
+                    <img src="/assets/img/hs/stadium/Bear-Rose-Barn.png" alt="graphics from saola" width="100" height="auto" />
                 </a>
             </div>
         
@@ -66,7 +70,7 @@
         
             <div class="gallery">
                 <a target="_blank" href="/assets/img/hs/stadium/HOCHIMINH.png">
-                    <img src="/assets/img/hs/stadium/HOCHIMINH.png" alt="graphics from saola" />
+                    <img src="/assets/img/hs/stadium/HOCHIMINH.png" alt="graphics from saola" width="100" height="auto" />
                 </a>
             </div>
         
@@ -74,7 +78,7 @@
         
             <div class="gallery">
                 <a target="_blank" href="/assets/img/hs/stadium/Poster-for-welcome.png">
-                    <img src="/assets/img/hs/stadium/Poster-for-welcome.png" alt="graphics from saola" />
+                    <img src="/assets/img/hs/stadium/Poster-for-welcome.png" alt="graphics from saola" width="100" height="auto" />
                 </a>
             </div>
         
@@ -82,7 +86,7 @@
         
             <div class="gallery">
                 <a target="_blank" href="/assets/img/hs/stadium/SHS-yard-sign.png">
-                    <img src="/assets/img/hs/stadium/SHS-yard-sign.png" alt="graphics from saola" />
+                    <img src="/assets/img/hs/stadium/SHS-yard-sign.png" alt="graphics from saola" width="100" height="auto" />
                 </a>
             </div>
         
@@ -90,7 +94,7 @@
         
             <div class="gallery">
                 <a target="_blank" href="/assets/img/hs/stadium/SHS_ava_logo_20.png">
-                    <img src="/assets/img/hs/stadium/SHS_ava_logo_20.png" alt="graphics from saola" />
+                    <img src="/assets/img/hs/stadium/SHS_ava_logo_20.png" alt="graphics from saola" width="100" height="auto" />
                 </a>
             </div>
         
@@ -98,9 +102,27 @@
         
             <div class="gallery">
                 <a target="_blank" href="/assets/img/hs/stadium/collab.png">
-                    <img src="/assets/img/hs/stadium/collab.png" alt="graphics from saola" />
+                    <img src="/assets/img/hs/stadium/collab.png" alt="graphics from saola" width="100" height="auto" />
                 </a>
             </div>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
         
     
         
@@ -215,7 +237,7 @@
     
 </div>
 
-<h3 id="burnt-river-high-school--senior">Burnt River High School | Senior</h3>
+<h3 id="burnt-river-high-school--junior">Burnt River High School | Junior</h3>
 <div class="flex">
     
         
@@ -229,7 +251,7 @@
         
             <div class="gallery">
                 <a target="_blank" href="/assets/img/hs/br/Agriscience Poster Template.png">
-                    <img src="/assets/img/hs/br/Agriscience Poster Template.png" alt="graphics from saola" />
+                    <img src="/assets/img/hs/br/Agriscience Poster Template.png" alt="graphics from saola" width="100" height="auto" />
                 </a>
             </div>
         
@@ -237,7 +259,7 @@
         
             <div class="gallery">
                 <a target="_blank" href="/assets/img/hs/br/BRCC_logo.png">
-                    <img src="/assets/img/hs/br/BRCC_logo.png" alt="graphics from saola" />
+                    <img src="/assets/img/hs/br/BRCC_logo.png" alt="graphics from saola" width="100" height="auto" />
                 </a>
             </div>
         
@@ -245,7 +267,7 @@
         
             <div class="gallery">
                 <a target="_blank" href="/assets/img/hs/br/BR_FFA2.png">
-                    <img src="/assets/img/hs/br/BR_FFA2.png" alt="graphics from saola" />
+                    <img src="/assets/img/hs/br/BR_FFA2.png" alt="graphics from saola" width="100" height="auto" />
                 </a>
             </div>
         
@@ -253,7 +275,7 @@
         
             <div class="gallery">
                 <a target="_blank" href="/assets/img/hs/br/Eye-of-Soul.png">
-                    <img src="/assets/img/hs/br/Eye-of-Soul.png" alt="graphics from saola" />
+                    <img src="/assets/img/hs/br/Eye-of-Soul.png" alt="graphics from saola" width="100" height="auto" />
                 </a>
             </div>
         
@@ -261,7 +283,7 @@
         
             <div class="gallery">
                 <a target="_blank" href="/assets/img/hs/br/Spring-banquet-NEWS-front.png">
-                    <img src="/assets/img/hs/br/Spring-banquet-NEWS-front.png" alt="graphics from saola" />
+                    <img src="/assets/img/hs/br/Spring-banquet-NEWS-front.png" alt="graphics from saola" width="100" height="auto" />
                 </a>
             </div>
         
@@ -269,9 +291,27 @@
         
             <div class="gallery">
                 <a target="_blank" href="/assets/img/hs/br/Spring-banquet1.png">
-                    <img src="/assets/img/hs/br/Spring-banquet1.png" alt="graphics from saola" />
+                    <img src="/assets/img/hs/br/Spring-banquet1.png" alt="graphics from saola" width="100" height="auto" />
                 </a>
             </div>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
         
     
         
