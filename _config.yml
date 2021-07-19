@@ -2,3 +2,5 @@ name: vietbui
 title: "vietbui"
 permalink: /:categories/:title/
 baseurl: /
+plugins:
+  - jekyll-seo-tag

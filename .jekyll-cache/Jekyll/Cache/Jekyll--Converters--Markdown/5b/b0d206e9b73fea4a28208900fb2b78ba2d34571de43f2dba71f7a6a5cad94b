@@ -1,6 +1,6 @@
-I"W<p>A few of my featured projects.</p>
+I"Ï<p>A few of my featured projects.</p>
 
-<div class="gallery">
+<div style="animation-delay:calc(2 * 0.3s);" class="gallery">
     <a target="_blank" href="/img/coolqc.png">
         <img src="/img/coolqc.png" alt="" />
     </a>
@@ -25,7 +25,7 @@
     </div>
 </div>
 
-<div class="gallery">
+<div style="animation-delay:calc(3 * 0.3s);" class="gallery">
     <a target="_blank" href="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/484/213/datas/original.jpg">
         <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/484/213/datas/original.jpg" alt="" />
     </a>
@@ -48,7 +48,7 @@
     </div>
 </div>
 
-<div class="gallery">
+<div style="animation-delay:calc(4 * 0.3s);" class="gallery">
     <a target="_blank" href="/img/coding-cover.png">
         <img src="/img/coding-cover.png" alt="" />
     </a>

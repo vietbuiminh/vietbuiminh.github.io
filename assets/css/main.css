@@ -35,7 +35,11 @@ p > img {
 img {
   max-width: 1920px;
 }
-
+h1, h2, h3, h4 {
+  line-height: 0.7em;
+  padding: 0 0 0.3em 0;
+  font-weight: 900;
+}
 /* Background image for each pages */
 .about-bg {
   background: radial-gradient(#000c 0%, #000d),
@@ -107,7 +111,7 @@ nav {
 .signature h1 {
   color: #fff;
   font-size: 6vw;
-  animation: moveup 1s ease-out forwards;
+  /*animation: moveup 1s ease-out forwards;*/
 }
 
 main,
@@ -127,39 +131,24 @@ main > p,
   animation-delay: 0.3s;
 }
 
-.gallery {
-  animation-delay: 0.8s;
-}
-
-h1 {
+main > h1 {
   --order: 1;
 }
-h2 {
+main > h2 {
   --order: 2;
 }
-h3 {
+main h3 {
   --order: 3;
 }
-h4 {
+main h4 {
   --order: 4;
 }
-h5 {
-  --order: 5;
-}
-h6 {
-  --order: 6;
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+main > h1,
+main > h2,
+main > h3,
+main > h4 {
   opacity: 0;
-  line-height: 0.7em;
-  padding: 0 0 0.3em 0;
-  font-weight: 900;
   animation: h1transition 0.5s ease-out forwards;
   animation-delay: calc(var(--order) * 100ms);
 }
@@ -448,7 +437,7 @@ footer {
   }
 
   header {
-    min-height: 200px;
+    min-height: 300px;
     height: auto;
     position: relative;
     display: flex;

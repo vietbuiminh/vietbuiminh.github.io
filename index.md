@@ -3,7 +3,7 @@ title: about
 layout: main
 ---
 
-# CREATIVE CODER & STE<a class="link coloranimate hover-underline-animation" href="/art">Art</a>M ADVOCATE
+# CREATIVE CODER & STE<a style="text-transform: capitalize" class="link coloranimate hover-underline-animation" href="/art">Art</a>M ADVOCATE
 
 Việt Bùi, a creative artist & coder, a student, a naturalist, and a global citizen. Born and
 raised in Ho Chi Minh City (HCMC), Vietnam. Grew up in an "engineer household", but Viet developed my
@@ -16,14 +16,14 @@ Feel free to browse around for future / <a class="link hover-underline-animation
         class="link hover-underline-animation" href="http://webgeeksrus.com/test/her2o/">past</a> projects.
 <br>
 <br>
-
+{% assign i = 0 %}
 {% for category in site.categories reversed %}
 
 ## {{ category[0] | upcase }}
 
 {% assign post = category[1][-1] %}
 
-<div class="gallery">
+<div class="gallery" style="animation-delay:calc({% increment i %} * 0.2s);" >
     <a target="_blank" href="{{ post.image }}">
         <img src="{{ post.image }}" alt="{{ post.img-alt }}" />
     </a>
