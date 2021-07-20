@@ -22,11 +22,16 @@ Feel free to browse around for future / <a class="link hover-underline-animation
 {% assign post = sorted[0] %}
 
 <div class="gallery" style="animation-delay:calc({% increment i %} * 0.1s);" >
+{% if category[0] != "writing" %}
     <a target="_blank" href="{{ post.image }}">
         <img src="{{ post.image }}" alt="{{ post.img-alt }}" />
     </a>
+{% endif %}
     <div class="desc">
         <h3 style="margin-top: 0">{{ post.full-title | upcase }}</h3>
+        {% if category[0] == "writing" %}
+        <tag style="font-size: 0.9em"><i>{{ post.date | date: "%Y-%m-%d" }}</i></tag>
+        {% endif %}
         <p>{{ post.description }}</p>
         <span class="bottomrow">
             <span class="tags">

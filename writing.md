@@ -10,11 +10,9 @@ A few of my featured projects.
 {% for post in sorted %}
 
 <div style="animation-delay:calc({% increment z %} * 0.2s);" class="gallery">
-    <a target="_blank" href="{{ post.image }}">
-        <img class="lazy" data-src="{{ post.image }}" alt="{{ post.img-alt }}" />
-    </a>
     <div class="desc">
         <h2 style="margin-top: 0; line-height: 1em;">{{ post.full-title | upcase }}</h2>
+        <tag style="font-size: 0.9em"><i>{{ post.date | date: "%Y-%m-%d" }}</i></tag>
         <p>{{ post.description }}</p>
         <span class="bottomrow">
             <span class="tags">

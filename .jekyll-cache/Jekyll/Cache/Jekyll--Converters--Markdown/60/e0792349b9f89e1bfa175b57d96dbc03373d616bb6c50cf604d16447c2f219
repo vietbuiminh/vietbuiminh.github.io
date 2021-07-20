@@ -1,0 +1,23 @@
+I"{<p>A few of my featured projects.</p>
+
+<div style="animation-delay:calc(0 * 0.2s);" class="gallery">
+    <div class="desc">
+        <h2 style="margin-top: 0; line-height: 1em;">PORTFOLIO JEKYLL WEBSITE</h2>
+        <tag style="font-size: 0.9em"><i>2021-07-20</i></tag>
+        <p>I wrote fairly detailed information in helping others who are interested in improving their website structure and organization on my Github repo</p>
+        <span class="bottomrow">
+            <span class="tags">
+                <a class="button link" href="/writing/vietbui/">
+                    read more &#x2192;</a>
+            </span>
+            <span class="tags">
+                
+                <a class="tag link">#coding</a>
+                
+            </span>
+        </span>
+    </div>
+</div>
+
+<p>I will put more projects up here soon. It’s just the matter of me coding the site out 😁</p>
+:ET
