@@ -5,11 +5,11 @@ categories: [coding]
 ---
 
 A few of my featured projects.
-{% assign i = 0 %}
+{% assign j = 0 %}
 {% assign sorted = site.categories.coding | sort: 'date' | reverse  %}
 {% for post in sorted %}
 
-<div style="animation-delay:calc({% increment i %} * 0.2s);" class="gallery">
+<div style="animation-delay:calc({% increment j %} * 0.2s);" class="gallery">
     <a target="_blank" href="{{ post.image }}">
         <img class="lazy" data-src="{{ post.image }}" alt="{{ post.img-alt }}" />
     </a>
