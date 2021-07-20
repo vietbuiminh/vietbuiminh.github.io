@@ -15,7 +15,7 @@ Feel free to browse around for future / <a class="link hover-underline-animation
 <br>
 <br>
 {% assign i = 0 %}
-{% for category in site.categories reversed %}
+{% for category in site.categories %}
 
 ## {{ category[0] | upcase }}
 {% assign sorted = category[1] | sort: 'date' | reverse  %}

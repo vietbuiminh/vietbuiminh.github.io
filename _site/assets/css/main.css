@@ -57,6 +57,11 @@ h1, h2, h3, h4 {
     url("../../img/coding-cover.png") 50% / cover #0000;
 }
 
+.writing-bg {
+  background: radial-gradient(#000c 75%, #000d),
+    url("../../img/writing.png") 50% / cover #0000;
+}
+
 header {
   height: 100vh;
   position: fixed;

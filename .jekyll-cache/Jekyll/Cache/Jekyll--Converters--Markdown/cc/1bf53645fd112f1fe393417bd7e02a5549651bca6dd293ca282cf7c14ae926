@@ -8,29 +8,31 @@
 <br />
 <br /></p>
 
-<h2 id="writing">WRITING</h2>
+<h2 id="art">ART</h2>
 
 <div class="gallery" style="animation-delay:calc(7 * 0.1s);">
-    <a target="_blank" href="/img/vietbui.png">
-        <img src="/img/vietbui.png" alt="" />
+    <a target="_blank" href="/img/art-cover.png">
+        <img src="/img/art-cover.png" alt="" />
     </a>
     <div class="desc">
-        <h3 style="margin-top: 0">PORTFOLIO JEKYLL WEBSITE</h3>
-        <p>I wrote fairly detailed information in helping others who are interested in improving their website structure and organization on my Github repo</p>
+        <h3 style="margin-top: 0">MATH'S BEAUTY IN DESERT</h3>
+        <p>The fascinating mathematic structures, the patterns derived from nature related to the renowned Fibonacci, and the spiral Phyllotaxis. The artwork was created using Netlogo3D with raytracing and x3d extensions. This piece is my Final Project for CSC150.</p>
         <span class="bottomrow">
             <span class="tags">
-                <a class="button link" href="/writing/vietbui/">
+                <a class="button link" href="/art/succulent/">
                     read more &#x2192;</a>
             </span>
             <span class="tags">
                 
                 <a class="tag link">#coding</a>
                 
+                <a class="tag link">#art</a>
+                
             </span>
         </span>
     </div>
 </div>
-<p><a class="link hover-underline-animation" href="writing">more →</a></p>
+<p><a class="link hover-underline-animation" href="art">more →</a></p>
 
 <h2 id="coding">CODING</h2>
 
@@ -58,31 +60,29 @@
 </div>
 <p><a class="link hover-underline-animation" href="coding">more →</a></p>
 
-<h2 id="art">ART</h2>
+<h2 id="writing">WRITING</h2>
 
 <div class="gallery" style="animation-delay:calc(9 * 0.1s);">
-    <a target="_blank" href="/img/art-cover.png">
-        <img src="/img/art-cover.png" alt="" />
+    <a target="_blank" href="/img/vietbui.png">
+        <img src="/img/vietbui.png" alt="" />
     </a>
     <div class="desc">
-        <h3 style="margin-top: 0">MATH'S BEAUTY IN DESERT</h3>
-        <p>The fascinating mathematic structures, the patterns derived from nature related to the renowned Fibonacci, and the spiral Phyllotaxis. The artwork was created using Netlogo3D with raytracing and x3d extensions. This piece is my Final Project for CSC150.</p>
+        <h3 style="margin-top: 0">PORTFOLIO JEKYLL WEBSITE</h3>
+        <p>I wrote fairly detailed information in helping others who are interested in improving their website structure and organization on my Github repo</p>
         <span class="bottomrow">
             <span class="tags">
-                <a class="button link" href="/art/succulent/">
+                <a class="button link" href="/writing/vietbui/">
                     read more &#x2192;</a>
             </span>
             <span class="tags">
                 
                 <a class="tag link">#coding</a>
                 
-                <a class="tag link">#art</a>
-                
             </span>
         </span>
     </div>
 </div>
-<p><a class="link hover-underline-animation" href="art">more →</a></p>
+<p><a class="link hover-underline-animation" href="writing">more →</a></p>
 
 <p><br />
 Feeling adventurous? I enjoy going around the country to different national parks. Best overall are Mt.Rainier and Tongass.</p>
