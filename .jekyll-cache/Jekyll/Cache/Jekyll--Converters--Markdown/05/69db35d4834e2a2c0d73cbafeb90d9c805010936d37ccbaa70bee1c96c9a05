@@ -1,8 +1,9 @@
-I"^<h1 id="edge-augustana-web-guild-coding-projects">EDGE Augustana Web Guild Coding Projects</h1>
+I"‚<h1 id="edge-augustana-web-guild-coding-projects">EDGE Augustana Web Guild Coding Projects</h1>
 <style>
     p > img {
         max-height: unset;
-        height: 100%
+        height: 100%;
+        background-color: #FF7878;
     }
 </style>
 
