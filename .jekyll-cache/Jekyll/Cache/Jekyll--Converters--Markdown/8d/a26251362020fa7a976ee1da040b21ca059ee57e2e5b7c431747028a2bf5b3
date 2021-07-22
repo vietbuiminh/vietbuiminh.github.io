@@ -1,20 +1,34 @@
-I"‚<h1 id="edge-augustana-web-guild-coding-projects">EDGE Augustana Web Guild Coding Projects</h1>
+I":<h1 id="edge-augustana-web-guild-coding-projects">EDGE Augustana Web Guild Coding Projects</h1>
 <style>
-    p > img {
-        max-height: unset;
+    .website-experience {
+        position: relative;
+        width: auto;
+        height: 32vw;
+    }
+    iframe {
+        width: 100%;
         height: 100%;
-        background-color: #FF7878;
+    }
+
+    @media (max-width: 68em) {
+        .website-experience {
+            position: relative;
+            width: auto;
+            height: 53vw;
+        }
     }
 </style>
 
-<p><img src="/img/understandingworks.png" alt="Snippet of LULAC 5285 website" /></p>
+<div class="website-experience">
+    <iframe src="https://xd.adobe.com/embed/ff045fc1-f7ec-4c8b-bd10-857e20d73de4-aa57/?fullscreen" frameborder="0" allowfullscreen=""></iframe>
+</div>
+<p>Scroll/Drag onto the frame to experience the web design ðŸ‘†</p>
 
 <p>My experience and achievements during my internship @ Augustana EDGE Center in 2021 Summer.
 First of all, I want to thanks Doug Tschopp, Andy Shearouse, and Laura Keenan for giving me the opportunities to further my skills in designing, coding, and working with clients.</p>
 
 <p>My first experience in EDGE was during my freshman year in college as I aksed Andy to give me 1 hour each week to sit inside the center and code out a website. 
 EDGE opened their Internship Application and I applied and got it by showing aditional Google Drive full of graphic designs from my past.</p>
-
 <h2 id="projects-from-my-internship">PROJECTS FROM MY INTERNSHIP:</h2>
 <div class="flex">
     <style>
@@ -51,7 +65,7 @@ EDGE opened their Internship Application and I applied and got it by showing adi
             <img src="/img/understandingworks.png" alt="Understanding Works" />
         </a>
         <h2>Understanding Works Org Design</h2>
-        <a class="link hover-underline-animation" href="/img/understandingworks.png" target="_blank">view design</a>  
+        <a class="link hover-underline-animation" href="https://xd.adobe.com/view/ff045fc1-f7ec-4c8b-bd10-857e20d73de4-aa57/?fullscreen" target="_blank">view design</a>  
     </div>
     <div class="gallery">
         <a target="_blank" href="/img/qc-tri-county.jpg">

@@ -1,0 +1,113 @@
+I"Â<h1 id="edge-augustana-web-guild-coding-projects">EDGE Augustana Web Guild Coding Projects</h1>
+<style>
+    .website-experience {
+        position: relative;
+        width: auto;
+        height: 32vw;
+    }
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    @media (max-width: 68em) {
+        .website-experience {
+            position: relative;
+            width: auto;
+            height: 52vw;
+        }
+    }
+</style>
+
+<div class="website-experience">
+    <iframe src="https://xd.adobe.com/embed/ff045fc1-f7ec-4c8b-bd10-857e20d73de4-aa57/?fullscreen" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<p>My experience and achievements during my internship @ Augustana EDGE Center in 2021 Summer.
+First of all, I want to thanks Doug Tschopp, Andy Shearouse, and Laura Keenan for giving me the opportunities to further my skills in designing, coding, and working with clients.</p>
+
+<p>My first experience in EDGE was during my freshman year in college as I aksed Andy to give me 1 hour each week to sit inside the center and code out a website. 
+EDGE opened their Internship Application and I applied and got it by showing aditional Google Drive full of graphic designs from my past.</p>
+<h2 id="projects-from-my-internship">PROJECTS FROM MY INTERNSHIP:</h2>
+<div class="flex">
+    <style>
+        .gallery {
+            flex-direction: column; 
+            justify-content: space-between;
+            position: relative; 
+            width: 340px;
+            margin-right: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: 300px;
+            object-position: center center;
+            border-right: none;
+            border-bottom: 1px solid #ccc;
+        }
+        .gallery h2 {
+            padding: 0 10px 10px;
+            font-size: 30px;
+            margin-top: 0; 
+            line-height: 1em;
+        }
+        .gallery p {
+            padding: 0 10px 10px;
+            font-size: 20px;
+        }
+        .gallery .link {
+            text-align: center;
+        }
+    </style>
+    <div class="gallery">
+        <a target="_blank" href="/img/understandingworks.png">
+            <img src="/img/understandingworks.png" alt="Understanding Works" />
+        </a>
+        <h2>Understanding Works Org Design</h2>
+        <a class="link hover-underline-animation" href="/img/understandingworks.png" target="_blank">view design</a>  
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="/img/qc-tri-county.jpg">
+            <img src="/img/qc-tri-county.jpg" alt="QC Tri-County" />
+        </a>
+        <h2>Quad City Tri-County Website Design</h2>
+        <a class="link hover-underline-animation" href="/img/qc-tri-county.jpg" target="_blank">view design</a>  
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="/img/coolqc.png">
+            <img src="/img/coolqc.png" alt="QC Tri-County" />
+        </a>
+        <h2>Cool QC Design &amp; Coding</h2>
+        <a class="link hover-underline-animation" href="https://www.vietbui.xyz/coolQC/" target="_blank">view website</a>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="/img/bassstreet.jpeg">
+            <img src="/img/bassstreet.jpeg" alt="Bass Street" />
+        </a>
+        <h2>Bass Street Coding</h2>
+        <a class="link hover-underline-animation" href="https://www.vietbui.xyz/EDGE-Project-1/" target="_blank">view website</a>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="/img/lulac5285.png">
+            <img src="/img/lulac5285.png" alt="LULAC 5285" />
+        </a>
+        <h2>LULAC #5285 Coding</h2>
+        <a class="link hover-underline-animation" href="https://webgeeksrus.com/test/lulac5285/" target="_blank">view website</a>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="/img/lulac-design.jpg">
+            <img src="/img/lulac-design.jpg" alt="LULAC 5285" />
+        </a>
+        <h2>LULAC #5285 Design</h2>
+        <a class="link hover-underline-animation" href="/img/lulac-design.jpg" target="_blank">view design</a>  
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="/img/her.png">
+            <img src="/img/her.png" alt="Her2o" />
+        </a>
+        <h2>Her2o Coding Update &amp; Adjust</h2>
+        <p>I made plenty of adjustment for the website and optimize it according to my design perspective and the client ideas.</p>
+        <a class="link hover-underline-animation" href="https://webgeeksrus.com/test/her2o/membership.php" target="_blank">view website</a>
+    </div>
+</div>
+:ET
