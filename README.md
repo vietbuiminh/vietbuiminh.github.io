@@ -7,7 +7,7 @@
 I am leaving a note down here for myself or whom interested in managing pages on their website with ease by creating template using the newly powerful technology that I recently discover, [Jekyll](https://jekyllrb.com/).
 
 Reason why I almost stop coding a complicated with raw html & css:
-- Jekyll creates a secrure framework
+- Jekyll creates a secure framework
 - Automatic generate pages with the template
 - Work well with static server (Github Page: I mean it's free so why not make it work better than PHP?) 
 
