@@ -1,6 +1,7 @@
 ---
 title: coding
 layout: main
+description: A few of my featured projects.
 categories: [coding]
 ---
 

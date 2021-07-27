@@ -1,6 +1,7 @@
 ---
 title: about
 layout: main
+description: Việt Bùi, a creative artist & coder, a student, a naturalist, and a global citizen. Born and raised in Ho Chi Minh City (HCMC), Vietnam. Using art to influence people. Graphic artist for clubs, and non-profit organizations in HCMC and the United States. Coder in a few hackathons, and coder by everyday.
 ---
 
 # CREATIVE CODER & STE<a style="text-transform: capitalize" class="link coloranimate hover-underline-animation" href="/art">Art</a>M ADVOCATE

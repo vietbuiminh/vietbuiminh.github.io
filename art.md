@@ -1,6 +1,7 @@
 ---
 title: art
 layout: main
+description: A few of my featured projects.
 categories: [art]
 ---
 
