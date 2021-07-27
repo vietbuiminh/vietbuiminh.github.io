@@ -40,7 +40,7 @@ Feel free to browse around for future / <a class="link hover-underline-animation
             </span>
             <span class="tags">
                 {% for tag in post.tags %}
-                <a class="tag link">#{{ tag }}</a>
+                <a class="tag link" href="{{ "tags/" | append: tag | relative_url }}">#{{ tag }}</a>
                 {% endfor %}
             </span>
         </span>
