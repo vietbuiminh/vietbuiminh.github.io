@@ -81,6 +81,7 @@ body > * {
 nav {
   display: flex;
   justify-content: space-between;
+  z-index: 2;
 }
 
 .homelink a,
