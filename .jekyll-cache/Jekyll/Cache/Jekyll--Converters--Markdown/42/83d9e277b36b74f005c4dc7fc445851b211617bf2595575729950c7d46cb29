@@ -1,0 +1,25 @@
+I"—
+<div style="animation-delay:calc(0 * 0.2s);" class="gallery">
+    <a target="_blank" href="/img/vietbui.png">
+        <img class="lazy" data-src="/img/vietbui.png" alt="" />
+    </a>
+    <div class="desc">
+        <h2 style="margin-top: 0; line-height: 1em;">PORTFOLIO JEKYLL WEBSITE</h2>
+        <p>I wrote fairly detailed information in helping others who are interested in improving their website structure and organization on my Github repo</p>
+        <span class="bottomrow">
+            <span class="tags">
+                <a class="button link" href="/writing/vietbui/">
+                    read more &#x2192;</a>
+            </span>
+            <span class="tags">
+                
+                <a class="tag link" href="/tags/coding">#coding</a>
+                
+                <a class="tag link" href="/tags/writing">#writing</a>
+                
+            </span>
+        </span>
+    </div>
+</div>
+
+:ET

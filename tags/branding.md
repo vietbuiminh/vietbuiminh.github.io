@@ -2,7 +2,7 @@
 title: "#branding"
 layout: main
 ---
-
+<a class="tag link" href="{{ baseurl }}">{{ page.title }}</a>
 {% assign branding-tag-count = 0 %}
 {% assign sorted = site.tags.branding | sort: 'date' | reverse  %}
 {% for post in sorted %}

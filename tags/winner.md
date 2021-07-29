@@ -2,7 +2,7 @@
 title: "#winner"
 layout: main
 ---
-
+<a class="tag link" href="{{ baseurl }}">{{ page.title }}</a>
 {% assign winner-tag-count = 0 %}
 {% assign sorted = site.tags.winner | sort: 'date' | reverse  %}
 {% for post in sorted %}

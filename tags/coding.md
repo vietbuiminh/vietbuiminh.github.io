@@ -2,7 +2,7 @@
 title: "#coding"
 layout: main
 ---
-
+<a class="tag link" href="{{ baseurl }}">{{ page.title }}</a>
 {% assign coding-tag-count = 0 %}
 {% assign sorted = site.tags.coding | sort: 'date' | reverse  %}
 {% for post in sorted %}

@@ -2,7 +2,7 @@
 title: "#hackathon"
 layout: main
 ---
-
+<a class="tag link" href="{{ baseurl }}">{{ page.title }}</a>
 {% assign hackathon-tag-count = 0 %}
 {% assign sorted = site.tags.hackathon | sort: 'date' | reverse  %}
 {% for post in sorted %}
