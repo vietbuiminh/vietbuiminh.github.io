@@ -510,10 +510,10 @@ footer {
 @media (prefers-color-scheme: dark) {
   :root {
     --linkcolor: rgb(255, 52, 52);
-    --textcolor: rgb(216, 216, 216);
+    --textcolor: rgb(255, 255, 255);
     --footercolor: rgb(43, 42, 42);
   }
-  main, footer {
+  body {
     background-color: black;
   }
   .gallery, .bottomrow, footer {
