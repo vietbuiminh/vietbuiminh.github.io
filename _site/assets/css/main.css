@@ -507,3 +507,19 @@ footer {
   }
 }
 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --linkcolor: rgb(255, 52, 52);
+    --textcolor: rgb(216, 216, 216);
+    --footercolor: rgb(43, 42, 42);
+  }
+  main, footer {
+    background-color: black;
+  }
+  .gallery, .bottomrow, footer {
+    border-color: var(--footercolor);
+  }
+  .tag {
+    border-color:rgb(59, 59, 59);
+  }
+}
