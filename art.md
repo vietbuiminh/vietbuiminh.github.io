@@ -32,5 +32,3 @@ A few of my featured projects.
 </div>
 
 {% endfor %}
-
-I will put more projects up here soon. It's just the matter of me coding the site out 😁
