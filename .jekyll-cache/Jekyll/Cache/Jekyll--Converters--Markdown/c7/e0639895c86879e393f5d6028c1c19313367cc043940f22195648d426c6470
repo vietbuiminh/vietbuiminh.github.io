@@ -1,4 +1,4 @@
-I"z<style>
+I"ˆ<style>
     .gallery {
         flex-direction: column; 
         justify-content: space-between;
@@ -214,6 +214,8 @@
                     <img class="lazy" data-src="/assets/img/yasmun/workshop-reminder.png" alt="" />
                 </a>
             </div>
+        
+    
         
     
         

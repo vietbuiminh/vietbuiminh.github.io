@@ -1,4 +1,4 @@
-I"<style>
+I"<style>
     .gallery {
         flex-direction: column; 
         justify-content: space-between;
@@ -252,6 +252,8 @@
                     <img class="lazy" data-src="/assets/img/saola/recycling-day.png" alt="graphics from saola" />
                 </a>
             </div>
+        
+    
         
     
         

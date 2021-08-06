@@ -1,4 +1,5 @@
-I":<h1 id="edge-augustana-web-guild-coding-projects">EDGE Augustana Web Guild Coding Projects</h1>
+I"s<h1 id="edge-augustana-web-guild-coding-projects">EDGE Augustana Web Guild Coding Projects</h1>
+
 <style>
     .website-experience {
         position: relative;
@@ -25,11 +26,14 @@
 <p>Scroll/Drag onto the frame to experience the web design 👆</p>
 
 <p>My experience and achievements during my internship @ Augustana EDGE Center in 2021 Summer.
-First of all, I want to thanks Doug Tschopp, Andy Shearouse, and Laura Keenan for giving me the opportunities to further my skills in designing, coding, and working with clients.</p>
-
-<p>My first experience in EDGE was during my freshman year in college as I aksed Andy to give me 1 hour each week to sit inside the center and code out a website. 
+First of all, I want to thanks Doug Tschopp, Andy Shearouse, and Laura Keenan for giving me the opportunities to further my skills in designing, coding, and working with clients.
+<img src="/img/edge.jpg" alt="EDGE Team Summer 2021" />
+<br />
+My first experience in EDGE was during my freshman year in college as I aksed Andy to give me 1 hour each week to sit inside the center and code out a website.
 EDGE opened their Internship Application and I applied and got it by showing aditional Google Drive full of graphic designs from my past.</p>
+
 <h2 id="projects-from-my-internship">PROJECTS FROM MY INTERNSHIP:</h2>
+
 <div class="flex">
     <style>
         .gallery {
