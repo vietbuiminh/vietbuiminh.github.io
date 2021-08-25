@@ -3,6 +3,7 @@
   --textcolor: rgb(59, 59, 59);
   --linkcolor: rgb(207, 4, 4);
   --footercolor: rgb(36, 0, 0);
+  --highlight: rgba(255, 0, 0, 0.214);
 }
 * {
   margin: 0;
@@ -36,7 +37,10 @@ p > img {
 img {
   max-width: 720px;
 }
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   line-height: 0.7em;
   padding: 0 0 0.3em 0;
   font-weight: 900;
@@ -325,7 +329,7 @@ footer {
   height: 1em;
   bottom: 0;
   left: 0;
-  background-color: rgba(255, 0, 0, 0.214);
+  background-color: var(--highlight);
   transform-origin: bottom left;
   transition: transform 0.25s ease-out;
 }
@@ -478,7 +482,6 @@ footer {
     max-height: 500px;
     width: 100%;
   }
-    
 }
 
 @media (max-width: 45em) {
@@ -497,7 +500,7 @@ footer {
   }
   main > h1 {
     font-size: 10vw;
-}
+  }
 }
 
 /*
@@ -516,10 +519,12 @@ footer {
   body {
     background-color: black;
   }
-  .gallery, .bottomrow, footer {
+  .gallery,
+  .bottomrow,
+  footer {
     border-color: var(--footercolor);
   }
   .tag {
-    border-color:rgb(59, 59, 59);
+    border-color: rgb(59, 59, 59);
   }
 }
