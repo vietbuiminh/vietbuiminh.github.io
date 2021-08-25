@@ -27,5 +27,39 @@ Click on read more for full articles.
         </span>
     </div>
 </div>
-
 {% endfor %}
+
+## YOUR CA
+
+<style>
+    .ca-profiles {
+        display: flex;
+        gap: 20px;
+    }
+    .frame-img {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .frame-img img {
+        margin: auto;
+        object-fit: cover;
+        width: 100px;
+        height: 100px;
+        border: solid var(--footercolor) 2px;
+        border-radius: 50%;
+    }
+
+
+</style>
+
+<div class="ca-profiles">
+    <div class="frame-img">
+        <img src="/assets/img/ca/kristina.jpg" alt="CA Kristina avatar" />
+        <p>CA <strong>KRISTINA</strong></p>
+    </div>
+    <div class="frame-img">
+        <img src="/assets/img/ca/viet.jpeg" alt="CA Viet avatar" />
+        <p>CA <strong>VIET</strong></p>
+    </div>
+</div>
