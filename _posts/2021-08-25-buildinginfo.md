@@ -40,7 +40,7 @@ Store Locations, etc)
 
 -- <a href="https://augustana.edu/about-us/offices/facilities/work-orders" class="link hover-underline-animation" target="_blank">Work Orders</a>
 
--- Lost Keys and Lockouts ==> call/text your CA or <a class="link hover-underline-animation" href="tel:+12097947711" target="_blank">Public Safety & Police</a>
+-- Lost Keys and Lockouts ==> call/text your CA or <a class="link hover-underline-animation" href="tel:+13097947711" target="_blank">Public Safety & Police</a>
 
 -- Roommate Agreements - Will be shared by the CA. Please complete promptly.
 
@@ -84,7 +84,7 @@ any fire-safety equipment in any way will result in disciplinary action.
 
 ## Public Safety & Police 🚓🚨
 
--- <a class="link hover-underline-animation" href="tel:+12097947711" target="_blank">309-794-7711</a>
+-- <a class="link hover-underline-animation" href="tel:+13097947711" target="_blank">309-794-7711</a>
 
 -- Available at all times
 -- Lock doors & cars & Take care of each other! Have a plan and stick to it!
