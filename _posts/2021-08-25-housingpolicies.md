@@ -1,25 +1,25 @@
 ---
 layout: main_ca
-title: Housing Policies
+title: Housing Policies 📃
 description: COVID, Quiet Hours & Coutesy Hours, Visitation Hours, Smoking, Alcohol and other drugs, Decoration, Fire Safety, Community Safety, and Warning
 categories: [ca]
 ---
 
 # Housing Policies
 
-## COVID
+## COVID 🦠
 
 -- Masks must be worn in the buildings, except private bedrooms
 --This is a fluid situation, policies and other items can change as the COVID situation does
 
-## Quiet Hours & Courtesy Hours
+## Quiet Hours & Courtesy Hours ⌚
 
 -- Sunday through Thursday 10PM to 10AM; Friday & Saturday 12AM-10AM
 --During courtesy hours (times when quiet hours are not in effect), residents are expected not to interfere with
 another individual's ability to sleep, read or study. Students asked by staff or other residents to be quiet
 during courtesy hours are expected to comply.
 
-## Visitation Hours
+## Visitation Hours 🤗
 
 -- For the purposes of this policy, a host is any Augustana student resident who is entertaining guests. A guest
 is any student or non-student visitor in a residence hall. Visitation hours are Sunday through Thursday 8
@@ -34,13 +34,13 @@ three guests per visit
 -- Minors (age 17 and under) must be accompanied by a parent/legal guardian or have had a parent/guardian
 contact the AC prior to the visit.
 
-## Smoking
+## Smoking 🚭
 
 -- All residential buildings are smoke-free and tobacco-free.
 -- Use of any tobacco-related product, e-cigarette, or vapor cigarette, cannot occur inside or within 15 feet of
 any campus building.
 
-## Alcohol and other drugs
+## Alcohol and other drugs 🍺💊
 
 -- The possession, storage, or consumption of alcoholic beverages on campus is prohibited.
 -- Students in locations where alcohol is present will usually be considered in violation of this policy, even if not
@@ -53,7 +53,7 @@ actions are prohibited.
 whether or not these items are used for that purpose — are also prohibited on campus and will be
 confiscated upon discovery.
 
-## Decoration
+## Decoration 🌷
 
 -- Belongings cannot endanger resident safety nor restrict reasonable freedom of movement. Any
 modifications to the room must be temporary, and fixed items, such as closet or interior doors and overhead
@@ -62,7 +62,7 @@ lighting, may not be removed.
 material is deemed by the AC to be appropriate to the mission and image of Augustana. College staff
 reserves the right to remove offensive postings and materials.
 
-## Fire Safety
+## Fire Safety 🔥
 
 -- Residents are not allowed to possess any items that may be a fire safety hazard. Such items include, but
 are not limited to candles, incense, grills (gas or charcoal), flammable liquids, and fireworks. Wickless
@@ -73,7 +73,7 @@ an internal circuit breaker (surge protector).
 -- Do not use emergency exit doors unless it is an emergency! But please sure them if they are the closest
 exit to you if an emergency like the fire alarm occurs.
 
-## Community Safety
+## Community Safety 🏡
 
 The following are not permitted in residence hall rooms:
 
@@ -91,6 +91,6 @@ ALL food MUST be kept in air tight containers to help reduce the likelihood of p
 Vandalism will not be tolerated!
 No sports in the residence halls (explain the sprinkler system in the building)
 
-## Warnings
+## Warnings ⚠
 
 CAs do not have to give warning about any policy before they document a situation.
