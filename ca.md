@@ -4,7 +4,7 @@ layout: main_ca
 description: Andreen 2nd Floor CA Portal.
 ---
 
-Click on read more to read full articles.
+Click on read more for full articles.
 {% assign i = 0 %}
 {% assign sorted = site.categories.ca | sort: 'date' | reverse  %}
 {% for post in sorted %}
