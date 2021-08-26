@@ -10,12 +10,12 @@ categories: [ca]
 ## COVID 🦠
 
 -- Masks must be worn in the buildings, except private bedrooms
---This is a fluid situation, policies and other items can change as the COVID situation does
+-- This is a fluid situation, policies and other items can change as the COVID situation does
 
 ## Quiet Hours & Courtesy Hours ⌚
 
 -- Sunday through Thursday 10PM to 10AM; Friday & Saturday 12AM-10AM
---During courtesy hours (times when quiet hours are not in effect), residents are expected not to interfere with
+-- During courtesy hours (times when quiet hours are not in effect), residents are expected not to interfere with
 another individual's ability to sleep, read or study. Students asked by staff or other residents to be quiet
 during courtesy hours are expected to comply.
 
