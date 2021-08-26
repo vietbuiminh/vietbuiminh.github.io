@@ -1,7 +1,7 @@
 ---
 layout: main_ca
 title: Building Information 🏢
-image: /assets/img/ca/info_desk.jpg
+image: /assets/img/ca/info_desk.JPG
 description: Information Desk, Launderym Room, Card Swipes, Other building spaces, Building Help and Support, Facilities Staff, Custodial Services, and Building Cleanliness, Bathrooms, Fire Procedures, Severe Weather Procedures, Public Safety & Police
 categories: [ca]
 ---
