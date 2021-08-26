@@ -56,7 +56,7 @@ Click on read more for full articles.
 <div class="ca-profiles">
     <div class="frame-img">
         <img src="/assets/img/ca/kristina.jpg" alt="CA Kristina avatar" />
-        <p>CA <strong>KRISTINA</strong></p>
+        <p>CA <strong>KRYSTINA</strong></p>
     </div>
     <div class="frame-img">
         <img src="/assets/img/ca/viet.jpeg" alt="CA Viet avatar" />
