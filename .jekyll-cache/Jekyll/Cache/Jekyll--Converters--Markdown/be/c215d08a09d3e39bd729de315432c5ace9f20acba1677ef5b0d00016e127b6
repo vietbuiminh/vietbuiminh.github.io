@@ -1,6 +1,6 @@
-I"�	<h1 id="run-a-ghost-javafx-application-on-eclipse">Run a Ghost JavaFX Application on Eclipse</h1>
+I"T<h1 id="run-a-ghost-javafx-application-on-eclipse">Run a Ghost JavaFX Application on Eclipse</h1>
 
-<p><img src="/img/javaFX.jpg" alt="Screenshot of the running application on eclipse" /></p>
+<p><img src="/img/JavaFX.jpg" alt="Screenshot of the running application on eclipse" /></p>
 
 <p>With limited instruction on the first class, getting a ghost file to run the JavaFX is quiet a journey to me. The Google sources from the other instructors are not quiet compatitble with my Eclipse and the detailed information that I was looking. If you also in that place, then this article would be a fresh breeze for your whole general idea of setting up the JavaFX Application on your Eclipse.
 This short guide would work best for PC, but Mac user can use the general step for their own device!</p>
@@ -36,10 +36,35 @@ Let it run and restart.</p>
 
 <p><img src="/img/writing/javafx4.JPG" alt="" /></p>
 
-<p><img src="/img/writing/javafx5.JPG" alt="" />
-<img src="/img/writing/javafx6.JPG" alt="" />
-<img src="/img/writing/javafx7.JPG" alt="" />
-<img src="/img/writing/javafx8.JPG" alt="" />
-<img src="/img/writing/javafx9.JPG" alt="" />
-<img src="/img/writing/javafx10.JPG" alt="" /></p>
+<p>Name the new project like “FirstJavaFXApplication” perhaps.
+Remember to not create Module!!!</p>
+
+<p><img src="/img/writing/javafx5.JPG" alt="" /></p>
+
+<p>You are half way done. Do you see the red x on the Application? It is there because it has not recieved any JavaFX library in the code yet. This is how you add all the library that we downloaded from Openjfx before.</p>
+
+<p>Right click on the file in the Package window &gt; Properties</p>
+
+<p><img src="/img/writing/javafx6.JPG" alt="" /></p>
+
+<p>Nagivate to Java Build Path, and select the Modulepath. Select Add External JARs…</p>
+
+<p><img src="/img/writing/javafx7.JPG" alt="" /></p>
+
+<p>A window should pop up and you should navigate to the folder that you got from JavaFX that you downloaded and unzipped before.
+Head to javafx-sdk-11.0.2 &gt; lib.</p>
+
+<p>Choose all the .jar files. ENTER</p>
+
+<p><img src="/img/writing/javafx8.JPG" alt="" /></p>
+
+<p>Click Apply and Close</p>
+
+<p><img src="/img/writing/javafx9.JPG" alt="" /></p>
+
+<p>Go to src &gt; application &gt; Main.java. Run the program, screenshoot the thing for your professor.</p>
+
+<p><img src="/img/writing/javafx10.JPG" alt="" /></p>
+
+<p>That is it! Contact me if you find any error or grammatical mistakes in this article.</p>
 :ET
