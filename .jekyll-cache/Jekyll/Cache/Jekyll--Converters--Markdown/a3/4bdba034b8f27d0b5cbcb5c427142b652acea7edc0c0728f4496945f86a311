@@ -1,0 +1,191 @@
+I"ž <p><a class="tag link" href="">#coding</a></p>
+
+<div style="animation-delay:calc(0 * 0.2s);" class="gallery">
+    <a target="_blank" href="/img/javaFX.jpg">
+        <img class="lazy" data-src="/img/javaFX.jpg" alt="" />
+    </a>
+    <div class="desc">
+        <h2 style="margin-top: 0; line-height: 1em;">RUN A GHOST JAVAFX APPLICATION ON ECLIPSE</h2>
+        <p>With limited instruction on the first class, getting a ghost file to run the JavaFX is quiet a journey to me. The Google sources from the other instructors are not quiet compatitble with my Eclipse and the detailed information that I was looking. If you also in that place, then this article would be a fresh breeze for your whole general idea of setting up the JavaFX Application on your Eclipse.</p>
+        <span class="bottomrow">
+            <span class="tags">
+                <a class="button link" href="/writing/CSC305Lab1/">
+                    read more &#x2192;</a>
+            </span>
+            <span class="tags">
+                
+                <a class="tag link" href="/tags/coding">#coding</a>
+                
+                <a class="tag link" href="/tags/writing">#writing</a>
+                
+            </span>
+        </span>
+    </div>
+</div>
+
+<div style="animation-delay:calc(1 * 0.2s);" class="gallery">
+    <a target="_blank" href="/img/vietbui.png">
+        <img class="lazy" data-src="/img/vietbui.png" alt="" />
+    </a>
+    <div class="desc">
+        <h2 style="margin-top: 0; line-height: 1em;">PORTFOLIO JEKYLL WEBSITE</h2>
+        <p>I wrote fairly detailed information in helping others who are interested in improving their website structure and organization on my Github repo</p>
+        <span class="bottomrow">
+            <span class="tags">
+                <a class="button link" href="/writing/vietbui/">
+                    read more &#x2192;</a>
+            </span>
+            <span class="tags">
+                
+                <a class="tag link" href="/tags/coding">#coding</a>
+                
+                <a class="tag link" href="/tags/writing">#writing</a>
+                
+            </span>
+        </span>
+    </div>
+</div>
+
+<div style="animation-delay:calc(2 * 0.2s);" class="gallery">
+    <a target="_blank" href="/img/understandingworks.gif">
+        <img class="lazy" data-src="/img/understandingworks.gif" alt="" />
+    </a>
+    <div class="desc">
+        <h2 style="margin-top: 0; line-height: 1em;">EDGE AUGUSTANA WEB GUILD CODING PROJECTS</h2>
+        <p>My experience and achievements during my internship @ Augustana EDGE Center in 2021 Summer.</p>
+        <span class="bottomrow">
+            <span class="tags">
+                <a class="button link" href="/coding/EDGE/">
+                    read more &#x2192;</a>
+            </span>
+            <span class="tags">
+                
+                <a class="tag link" href="/tags/coding">#coding</a>
+                
+                <a class="tag link" href="/tags/design">#design</a>
+                
+            </span>
+        </span>
+    </div>
+</div>
+
+<div style="animation-delay:calc(3 * 0.2s);" class="gallery">
+    <a target="_blank" href="/img/coolqc.png">
+        <img class="lazy" data-src="/img/coolqc.png" alt="" />
+    </a>
+    <div class="desc">
+        <h2 style="margin-top: 0; line-height: 1em;">REDESIGN COOL QUAD CITIES WEBSITE</h2>
+        <p>Redesign the website volunteeringly for the Cool QC. Inspired by Human of New York.</p>
+        <span class="bottomrow">
+            <span class="tags">
+                <a class="button link" href="/coding/cool-qc/">
+                    read more &#x2192;</a>
+            </span>
+            <span class="tags">
+                
+                <a class="tag link" href="/tags/coding">#coding</a>
+                
+                <a class="tag link" href="/tags/art">#art</a>
+                
+                <a class="tag link" href="/tags/design">#design</a>
+                
+            </span>
+        </span>
+    </div>
+</div>
+
+<div style="animation-delay:calc(4 * 0.2s);" class="gallery">
+    <a target="_blank" href="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/484/213/datas/original.jpg">
+        <img class="lazy" data-src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/484/213/datas/original.jpg" alt="" />
+    </a>
+    <div class="desc">
+        <h2 style="margin-top: 0; line-height: 1em;">STOCKSIFY: A HUB FOR STOCK MARKET RESEARCH</h2>
+        <p>Don't know where to start with investing? Start researching with Stocksify, it gives the big picture of the stock or the company you interested in just input the stock CODE into the box and search.</p>
+        <span class="bottomrow">
+            <span class="tags">
+                <a class="button link" href="/coding/stock/">
+                    read more &#x2192;</a>
+            </span>
+            <span class="tags">
+                
+                <a class="tag link" href="/tags/coding">#coding</a>
+                
+                <a class="tag link" href="/tags/hackathon">#hackathon</a>
+                
+            </span>
+        </span>
+    </div>
+</div>
+
+<div style="animation-delay:calc(5 * 0.2s);" class="gallery">
+    <a target="_blank" href="/img/coding-cover.png">
+        <img class="lazy" data-src="/img/coding-cover.png" alt="" />
+    </a>
+    <div class="desc">
+        <h2 style="margin-top: 0; line-height: 1em;">THE 70S - THE DECADE OF TURMOIL</h2>
+        <p>A web app that let the user explore the war events that started in the 70s which snippet of information from the war with the interaction with geography through the map provided by MapBox.</p>
+        <span class="bottomrow">
+            <span class="tags">
+                <a class="button link" href="/coding/turmoil/">
+                    read more &#x2192;</a>
+            </span>
+            <span class="tags">
+                
+                <a class="tag link" href="/tags/coding">#coding</a>
+                
+                <a class="tag link" href="/tags/winner">#winner</a>
+                
+                <a class="tag link" href="/tags/hackathon">#hackathon</a>
+                
+            </span>
+        </span>
+    </div>
+</div>
+
+<div style="animation-delay:calc(6 * 0.2s);" class="gallery">
+    <a target="_blank" href="/img/fern.png">
+        <img class="lazy" data-src="/img/fern.png" alt="" />
+    </a>
+    <div class="desc">
+        <h2 style="margin-top: 0; line-height: 1em;">JEWEL OF FOREST</h2>
+        <p>Inspired by the foliage and the flora of the rain forest of the state of Washington. One of the centerpieces of the artwork is the fern feature. The ferns are the characteristic of the all-year-round rain. The rain always brings up the scent of the wooded forest. Every piece in the artwork reminds me of every hike through the wood.</p>
+        <span class="bottomrow">
+            <span class="tags">
+                <a class="button link" href="/art/fern/">
+                    read more &#x2192;</a>
+            </span>
+            <span class="tags">
+                
+                <a class="tag link" href="/tags/coding">#coding</a>
+                
+                <a class="tag link" href="/tags/art">#art</a>
+                
+            </span>
+        </span>
+    </div>
+</div>
+
+<div style="animation-delay:calc(7 * 0.2s);" class="gallery">
+    <a target="_blank" href="/img/art-cover.png">
+        <img class="lazy" data-src="/img/art-cover.png" alt="" />
+    </a>
+    <div class="desc">
+        <h2 style="margin-top: 0; line-height: 1em;">MATH'S BEAUTY IN DESERT</h2>
+        <p>The fascinating mathematic structures, the patterns derived from nature related to the renowned Fibonacci, and the spiral Phyllotaxis. The artwork was created using Netlogo3D with raytracing and x3d extensions. This piece is my Final Project for CSC150.</p>
+        <span class="bottomrow">
+            <span class="tags">
+                <a class="button link" href="/art/succulent/">
+                    read more &#x2192;</a>
+            </span>
+            <span class="tags">
+                
+                <a class="tag link" href="/tags/coding">#coding</a>
+                
+                <a class="tag link" href="/tags/art">#art</a>
+                
+            </span>
+        </span>
+    </div>
+</div>
+
+:ET
