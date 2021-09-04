@@ -1,0 +1,69 @@
+I"�<h1 id="meet-greet--treat">Meet! Greet! &amp; Treat!</h1>
+
+<p>First Week CA Program</p>
+
+<style>
+    .poster-gallery img {
+            position: relative;
+            object-fit: cover;
+            max-height: 1000px;
+            width: 24%;
+            border: 1px solid #ccc;
+    }
+</style>
+
+<div class="poster-gallery">
+    <img src="/img/firstprogram/poster1.png" alt="poster1" />
+    <img src="/img/firstprogram/poster3.png" alt="poster3" />
+    <img src="/img/firstprogram/poster2.png" alt="poster2" />
+    <img src="/img/firstprogram/poster4.png" alt="poster4" />
+    <img src="/img/firstprogram/poster3.png" alt="poster2" />
+    <img src="/img/firstprogram/poster2.png" alt="poster1" />
+    <img src="/img/firstprogram/poster4.png" alt="poster4" />
+    <img src="/img/firstprogram/poster1.png" alt="poster3" />
+</div>
+
+<p>– Saturday, September 4 ⋅ 6:30 – 7:20pm <br />
+– Andreen Basement Lounge!</p>
+
+<p>Wanna know more about the people of Andreen? YOU also are one of us! <br />
+Come join, talk, share, &amp; eat the free pizza🍕 + pop🥤.</p>
+
+<p>Using your Augustana College to add event to Google Calendar.<br />
+<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MjBkNXBzb2s5czU1ZGg0ZzdicWlmaHZxamwgdmlldGJ1aTIwQGF1Z3VzdGFuYS5lZHU&amp;tmsrc=vietbui20%40augustana.edu"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif" /></a></p>
+
+<style>
+    .ca-profiles {
+        display: flex;
+        gap: 20px;
+    }
+    .frame-img {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .frame-img img {
+        margin: auto;
+        object-fit: cover;
+        width: 100px;
+        height: 100px;
+        border: solid var(--footercolor) 2px;
+        border-radius: 50%;
+    }
+
+
+</style>
+
+<h2 id="organizing-event-cas">Organizing-event CAs</h2>
+
+<div class="ca-profiles">
+    <div class="frame-img">
+        <img src="/assets/img/ca/mas.jpg" alt="CA Mas avatar" />
+        <p>CA <strong>MAS</strong></p>
+    </div>
+    <div class="frame-img">
+        <img src="/assets/img/ca/viet.jpeg" alt="CA Viet avatar" />
+        <p>CA <strong>VIET</strong></p>
+    </div>
+</div>
+:ET

@@ -1,0 +1,62 @@
+I"O<h1 id="meet-greet--treat">Meet! Greet! &amp; Treat!</h1>
+
+<p>First Week CA Program</p>
+
+<style>
+    .poster-gallery img {
+            position: relative;
+            object-fit: cover;
+            max-height: 1000px;
+            width: 25%;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+    }
+</style>
+
+<div class="poster-gallery">
+    <img src="/img/firstprogram/poster1.png" alt="poster1" />
+    <img src="/img/firstprogram/poster3.png" alt="poster3" />
+    <img src="/img/firstprogram/poster2.png" alt="poster2" />
+    <img src="/img/firstprogram/poster1.png" alt="poster4" />
+</div>
+<h2 id="organizing-event-cas">Organizing-event CAs</h2>
+
+<style>
+    .ca-profiles {
+        display: flex;
+        gap: 20px;
+    }
+    .frame-img {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .frame-img img {
+        margin: auto;
+        object-fit: cover;
+        width: 100px;
+        height: 100px;
+        border: solid var(--footercolor) 2px;
+        border-radius: 50%;
+    }
+
+
+</style>
+
+<div class="ca-profiles">
+    <div class="frame-img">
+        <img src="/assets/img/ca/mas.jpg" alt="CA Mas avatar" />
+        <p>CA <strong>MAS</strong></p>
+    </div>
+    <div class="frame-img">
+        <img src="/assets/img/ca/viet.jpeg" alt="CA Viet avatar" />
+        <p>CA <strong>VIET</strong></p>
+    </div>
+</div>
+
+<p>– Saturday, September 4⋅6:30 – 7:20pm <br />
+– Andreen Basement Lounge!</p>
+
+<p>Wanna know more about the people of Andreen? YOU also are one of us! <br />
+Come join, talk, share, &amp; eat the free pizza🍕 + pop🥤.</p>
+:ET

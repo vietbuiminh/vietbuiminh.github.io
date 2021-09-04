@@ -20,8 +20,8 @@ Click on read more for full articles.
                     read more &#x2192;</a>
             </span>
             <span class="tags">
-                {% for tag in post.tags %}
-                <a class="tag link" href="{{ "tags/" | append: tag | relative_url }}">#{{ tag }}</a>
+                {% for note in post.notes %}
+                <a class="tag link" href="{{ "ca/" | append: note | relative_url }}">#{{ note }}</a>
                 {% endfor %}
             </span>
         </span>
