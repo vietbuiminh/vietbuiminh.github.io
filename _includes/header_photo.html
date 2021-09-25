@@ -20,9 +20,8 @@
         :root {
             --backgroundcolor: white;
             --textcolor: rgb(29, 29, 29);
-            --linkcolor: rgb(0, 72, 226);
-            --footercolor: rgb(219, 150, 0);
-            --highlight: rgba(219, 150, 0, 0.363);
+            --linkcolor: rgb(226, 173, 0);
+            --highlight: rgba(219, 106, 0, 0.774);
         }
 
         header {
@@ -42,11 +41,21 @@
                 url("/img/andreen_bg.jpg") 50% / cover #0000;
         }
 
+        @media (max-width: 68em) {
+
+            main,
+            footer,
+            .spacing {
+                margin: 0 0 0 0;
+            }
+
+        }
+
         @media (prefers-color-scheme: dark) {
             :root {
                 --textcolor: rgb(202, 202, 202);
-                --linkcolor: rgb(87, 179, 255);
-                --highlight: rgba(255, 166, 0, 0.404);
+                --linkcolor: rgb(255, 216, 87);
+                --highlight: rgba(255, 166, 0, 0.699);
             }
 
             body {
