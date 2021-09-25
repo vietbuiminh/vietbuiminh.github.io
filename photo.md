@@ -5,61 +5,53 @@ description: Latest photos from moon festival
 ---
 
 Click on to get full size photos.
-{% assign i = 0 %}
-{% assign sorted = site.categories.ca | sort: 'date' | reverse  %}
-{% for post in sorted %}
-
-<div style="animation-delay:calc({% increment z %} * 0.2s);" class="gallery">
-    <div class="desc">
-        <h2 style="margin-top: 0; line-height: 1em;">{{ post.title | upcase }}</h2>
-        <tag style="font-size: 0.9em"><i>{{ post.date | date: "%Y-%m-%d" }}</i></tag>
-        <p>{{ post.description }}</p>
-        <span class="bottomrow">
-            <span class="tags">
-                <a class="button link" href="{{ post.url }}">
-                    read more &#x2192;</a>
-            </span>
-            <span class="tags">
-                {% for note in post.notes %}
-                <a class="tag link" href="{{ "ca/" | append: note | relative_url }}">#{{ note }}</a>
-                {% endfor %}
-            </span>
-        </span>
-    </div>
-</div>
-{% endfor %}
-
-## YOUR CA
 
 <style>
-    .ca-profiles {
-        display: flex;
-        gap: 20px;
+    .gallery {
+        flex-direction: column; 
+        justify-content: space-between;
+        position: relative; 
+        width: 200px;
+        margin-right: 10px;
+        border-radius: 1px;
     }
-    .frame-img {
-        display: flex;
-        flex-direction: column;
+    .gallery a {
+        width: 100%;
+        height: 100%;
+    }
+    .gallery img {
+        width: 100%;
+        border-right: none;
+        border-radius: 1px;
+    }
+    .gallery h2 {
+        padding: 0 10px 10px;
+        font-size: 30px;
+        margin-top: 0; 
+        line-height: 1em;
+    }
+    .gallery p {
+        padding: 0 10px 10px;
+        font-size: 20px;
+    }
+    .gallery .link {
         text-align: center;
     }
-    .frame-img img {
-        margin: auto;
-        object-fit: cover;
-        width: 100px;
-        height: 100px;
-        border: solid var(--footercolor) 2px;
-        border-radius: 50%;
+    @media (max-width: 68em) {
+        .gallery {
+            width: 20vw;
+            margin-right: 1vw;
+        }
     }
-
-
 </style>
-
-<div class="ca-profiles">
-    <div class="frame-img">
-        <img src="/assets/img/ca/kristina.jpg" alt="CA Kristina avatar" />
-        <p>CA <strong>KRYSTINA</strong></p>
-    </div>
-    <div class="frame-img">
-        <img src="/assets/img/ca/viet.jpeg" alt="CA Viet avatar" />
-        <p>CA <strong>VIET</strong></p>
-    </div>
+<div class="flex">
+    {% for image in site.static_files %}
+        {% if image.path contains 'assets/img/moonfest/RAW' %}
+            <div class="gallery">
+                <a target="_blank" href="{{ image.path }}" >
+                    <img class="lazy" data-src="{{ image.path }}" alt="{{ image-alt }}" />
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
 </div>

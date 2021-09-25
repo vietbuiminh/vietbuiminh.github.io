@@ -1,10 +1,12 @@
-I"]<style>
+I"…<p>Click on to get full size photos.</p>
+
+<style>
     .gallery {
         flex-direction: column; 
         justify-content: space-between;
         position: relative; 
-        width: 230px;
-        margin-right: 20px;
+        width: 200px;
+        margin-right: 10px;
     }
     .gallery a {
         width: 100%;
@@ -28,16 +30,14 @@
     .gallery .link {
         text-align: center;
     }
+    @media (max-width: 68em) {
+        .gallery {
+            width: 20vw;
+            margin-right: 1vw;
+        }
+    }
 </style>
 
-<h1 id="the-mentorship-project">The Mentorship Project</h1>
-<p><img src="/assets/img/mt/match.png" alt="Graphic Designs the Mentorship Project" /></p>
-
-<p>The Mentorship Project is a national non-profit organization, and I happened to be one of the graphic designers during the formation. Quickly promoted into the Marketing Chair. I was in charged of social media management and branding the organization.</p>
-
-<p>You can check out the website <a class="link hover-underline-animation" href="https://linktr.ee/mentorshipproject" target="_blank">here</a>.</p>
-
-<h2 id="graphics">GRAPHICS:</h2>
 <div class="flex">
     
         
@@ -81,95 +81,69 @@
         
     
         
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
             <div class="gallery">
-                <a target="_blank" href="/assets/img/mt/1.png">
-                    <img class="lazy" data-src="/assets/img/mt/1.png" alt="graphics from saola" />
+                <a target="_blank" href="/assets/img/munsg/2020/3HOURSSLEFT.png">
+                    <img class="lazy" data-src="/assets/img/munsg/2020/3HOURSSLEFT.png" alt="" />
                 </a>
             </div>
         
     
         
             <div class="gallery">
-                <a target="_blank" href="/assets/img/mt/1Webinar.png">
-                    <img class="lazy" data-src="/assets/img/mt/1Webinar.png" alt="graphics from saola" />
+                <a target="_blank" href="/assets/img/munsg/2020/MUNSG training.png">
+                    <img class="lazy" data-src="/assets/img/munsg/2020/MUNSG training.png" alt="" />
                 </a>
             </div>
         
     
         
             <div class="gallery">
-                <a target="_blank" href="/assets/img/mt/Gates-scholarship_nobor.png">
-                    <img class="lazy" data-src="/assets/img/mt/Gates-scholarship_nobor.png" alt="graphics from saola" />
+                <a target="_blank" href="/assets/img/munsg/2020/MUNSG-scholar.png">
+                    <img class="lazy" data-src="/assets/img/munsg/2020/MUNSG-scholar.png" alt="" />
                 </a>
             </div>
         
     
         
             <div class="gallery">
-                <a target="_blank" href="/assets/img/mt/Horatio.png">
-                    <img class="lazy" data-src="/assets/img/mt/Horatio.png" alt="graphics from saola" />
+                <a target="_blank" href="/assets/img/munsg/2020/free.png">
+                    <img class="lazy" data-src="/assets/img/munsg/2020/free.png" alt="" />
                 </a>
             </div>
         
     
         
             <div class="gallery">
-                <a target="_blank" href="/assets/img/mt/POST1.png">
-                    <img class="lazy" data-src="/assets/img/mt/POST1.png" alt="graphics from saola" />
+                <a target="_blank" href="/assets/img/munsg/2020/thinker.png">
+                    <img class="lazy" data-src="/assets/img/munsg/2020/thinker.png" alt="" />
                 </a>
             </div>
-        
-    
-        
-            <div class="gallery">
-                <a target="_blank" href="/assets/img/mt/Quest-bridge-1.png">
-                    <img class="lazy" data-src="/assets/img/mt/Quest-bridge-1.png" alt="graphics from saola" />
-                </a>
-            </div>
-        
-    
-        
-            <div class="gallery">
-                <a target="_blank" href="/assets/img/mt/Selfcare1.png">
-                    <img class="lazy" data-src="/assets/img/mt/Selfcare1.png" alt="graphics from saola" />
-                </a>
-            </div>
-        
-    
-        
-            <div class="gallery">
-                <a target="_blank" href="/assets/img/mt/Webinar.png">
-                    <img class="lazy" data-src="/assets/img/mt/Webinar.png" alt="graphics from saola" />
-                </a>
-            </div>
-        
-    
-        
-            <div class="gallery">
-                <a target="_blank" href="/assets/img/mt/match.png">
-                    <img class="lazy" data-src="/assets/img/mt/match.png" alt="graphics from saola" />
-                </a>
-            </div>
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
         
     
         
@@ -509,5 +483,4 @@
         
     
 </div>
-
 :ET
