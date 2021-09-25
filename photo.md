@@ -13,6 +13,7 @@ Click on to get full size photos.
         position: relative; 
         width: 200px;
         margin-right: 10px;
+        margin-bottom: 10px;
         border-radius: 1px;
     }
     .gallery a {
@@ -41,12 +42,13 @@ Click on to get full size photos.
         .gallery {
             width: 20vw;
             margin-right: 1vw;
+            margin-bottom: 1vw;
         }
     }
 </style>
 <div class="flex">
     {% for image in site.static_files %}
-        {% if image.path contains 'assets/img/moonfest/RAW' %}
+        {% if image.path contains 'assets/img/moonfest/JPG' %}
             <div class="gallery">
                 <a target="_blank" href="{{ image.path }}" >
                     <img class="lazy" data-src="{{ image.path }}" alt="{{ image-alt }}" />

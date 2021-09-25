@@ -1,112 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Begin Jekyll SEO tag v2.7.1 -->
-<meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="Photos" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Latest photos from moon festival" />
-<meta property="og:description" content="Latest photos from moon festival" />
-<meta property="og:site_name" content="vietbui" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Photos" />
-<script type="application/ld+json">
-{"headline":"Photos","@type":"WebPage","description":"Latest photos from moon festival","url":"/photo/","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-    <title>Photos</title>
-    <link rel="stylesheet" href=" /assets/css/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <link rel="shortcut icon" href=" /img/SVG/favicon.svg" type="image/x-icon">
-</head>
-
-<body>
-    <style>
-        :root {
-            --backgroundcolor: white;
-            --textcolor: rgb(29, 29, 29);
-            --linkcolor: rgb(226, 173, 0);
-            --highlight: rgba(219, 106, 0, 0.774);
-        }
-
-        header {
-            height: 30vh;
-            position: relative;
-            width: 100%;
-        }
-
-        main,
-        footer,
-        .spacing {
-            margin: 0 20% 0 20%;
-        }
-
-        .andreen-bg {
-            background: radial-gradient(#000c 0%, #000d),
-                url("/img/andreen_bg.jpg") 50% / cover #0000;
-        }
-
-        @media (max-width: 68em) {
-
-            main,
-            footer,
-            .spacing {
-                margin: 0 0 0 0;
-            }
-
-        }
-
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --textcolor: rgb(202, 202, 202);
-                --linkcolor: rgb(255, 216, 87);
-                --highlight: rgba(255, 166, 0, 0.699);
-            }
-
-            body {
-                background-color: rgb(29, 29, 29);
-
-            }
-
-            .gallery,
-            .bottomrow,
-            footer {
-                border-color: var(--footercolor);
-            }
-
-            .tag {
-                border-color: rgb(59, 59, 59);
-            }
-        }
-    </style>
-    <header class="andreen-bg">
-        <nav id="nav-placeholder" class="spacing">
-            <span class="homelink">
-                <a href="/photo">📷</a>
-            </span>
-
-        </nav>
-        <div class="signature" class="spacing">
-            <h1>PHOTOS</h1>
-
-        </div>
-
-        <div class="spacing">
-            <span>Warning ⚠ You are entering heavy photos website, make sure the device is
-                connected to
-                stable wifi.</span>
-        </div>
-    </header>
-    <main>
-<tag style="font-size: 0.9em"><i></i></tag>
-<p>Click on to get full size photos.</p>
+I"U<p>Click on to get full size photos.</p>
 
 <style>
     .gallery {
@@ -144,7 +36,6 @@
         .gallery {
             width: 20vw;
             margin-right: 1vw;
-            margin-bottom: 1vw;
         }
     }
 </style>
@@ -978,14 +869,4 @@
         
     
 </div>
-
-
-<tag id="modifiedDate" style="font-size: 0.7em;">last update on 25th September 2021</tag>
-</main>
-<footer id="footer-placeholder">
-    <span class="text">Viet Bui</span>
-</footer>
-<script src=" /assets/js/lazy-img-loading.js""></script>
-</body>
-
-</html>
+:ET
