@@ -51,7 +51,7 @@ Click on to get full size photos.
         {% if image.path contains 'assets/img/moonfest/JPG' %}
             <div class="gallery">
                 <a target="_blank" href="{{ image.path }}" >
-                    <img class="lazy" data-src="{{ image.path }}" alt="{{ image-alt }}" />
+                    <img width="10%" height="10%" class="lazy" data-src="{{ image.path }}" alt="{{ image-alt }}" />
                 </a>
             </div>
         {% endif %}
