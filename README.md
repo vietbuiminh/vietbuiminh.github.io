@@ -2,7 +2,7 @@
 ## _Started with Jekyll Website_
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/vietbuiminh/vietbuiminh.github.io/main/LICENSE) [![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.7-blue.svg)](https://jekyllrb.com/) [![Ruby gem](https://img.shields.io/gem/v/minimal-mistakes-jekyll.svg)](https://rubygems.org/gems/minimal-mistakes-jekyll)
-[vietbui.xyz](https:vietbui.xyz)
+[vietbui.xyz](https://www.vietbui.xyz/)
 
 I am leaving a note down here for myself or whom interested in managing pages on their website with ease by creating template using the newly powerful technology that I recently discover, [Jekyll](https://jekyllrb.com/).
 
