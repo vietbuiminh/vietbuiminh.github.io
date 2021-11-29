@@ -48,13 +48,15 @@
 
         @media (prefers-color-scheme: dark) {
             :root {
-                --textcolor: rgb(202, 202, 202);
-                --linkcolor: rgb(87, 179, 255);
-                --highlight: rgba(255, 166, 0, 0.404);
+                --backgroundcolor: white;
+                --textcolor: rgb(29, 29, 29);
+                --linkcolor: rgb(0, 72, 226);
+                --footercolor: rgb(219, 150, 0);
+                --highlight: rgba(219, 150, 0, 0.363);
             }
 
             body {
-                background-color: rgb(29, 29, 29);
+                background-color: rgb(255, 255, 255);
 
             }
 
@@ -177,10 +179,40 @@ any fire-safety equipment in any way will result in disciplinary action.
 </main>
 <footer id="footer-placeholder">
     <span class="contact">
-        <a class="link hover-underline-animation" href="tel:+13097165728" target="_blank">Andreen Duty #</a>
+        <a class="link hover-underline-animation" href="tel:+13097165728" target="_blank" id="text-display1"
+            onmouseover="changeText('(309)716-5728', 1)" onmouseout="defaultText()">Andreen Duty #</a>
         <div class="divider">/</div>
-        <a class="link hover-underline-animation" href="tel:+13097947711" target="_blank">Public Safety & Police</a>
+        <a class="link hover-underline-animation" href="tel:+13097947711" target="_blank" id="text-display2"
+            onmouseover="changeText('(309)794-7711', 2)" onmouseout="defaultText()">Public Safety & Police</a>
     </span>
+    <script type="text/javascript">
+        let temp = '';
+        let unitype;
+        function changeText(text, type) {
+            if (type == 1) {
+                var display = document.getElementById('text-display1');
+            } else if (type == 2) {
+                var display = document.getElementById('text-display2');
+            }
+            unitype = type
+            temp = display.innerHTML;
+            display.innerHTML = "";
+            display.innerHTML = text;
+            display.style = "font-weight: bold";
+        }
+
+        function defaultText() {
+            if (unitype == 1) {
+                var display = document.getElementById('text-display1');
+            } else if (unitype == 2) {
+                var display = document.getElementById('text-display2');
+            }
+            display.innerHTML = "";
+            display.innerHTML = temp;
+            display.style = "font-weight: regular";
+        }
+
+    </script>
 
     <span class="text">Made with ♥ by your CA</span>
 </footer>
