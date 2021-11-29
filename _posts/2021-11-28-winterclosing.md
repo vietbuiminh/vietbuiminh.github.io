@@ -52,5 +52,8 @@ You can stay on campus if you are:
 -- Trash remove and taken to the OUTSIDE Dumpster (if I saw the bathroom's trashbins filled up again, we will have fine for the whole wing, my friends)<br>
 -- Unplug all electrical appliances<br>
 -- Lock the door upon exiting room<br>
--- Sign the paper slip on your door when you leave and taped to the door 📜📎<br>
-Make sure you also sign up for check out and return the key!
+-- Sign the paper slip on your door when you leave and taped to the door 📜📎
+
+## ....then you are good to go
+
+<iframe src="https://giphy.com/embed/4Z5rozjR9R6htw6Q4b" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/bbcthree-makeup-bbc-three-glow-up-4Z5rozjR9R6htw6Q4b">via GIPHY</a></p>
