@@ -27,7 +27,7 @@ categories: [ca]
 
 ### Residence Hall will close for Winter Break from
 
-#### ✅ noon Saturday, December 11 ➡️ Sunday, January 2
+#### ✅ noon Saturday, December 11 ➡️ noon Sunday, January 2
 
 This time frame is for first year students who enrolled in J-term.
 
