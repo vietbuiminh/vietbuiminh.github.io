@@ -1,5 +1,5 @@
-I"~	<style>
-    p > .keep-big {
+I"]	<style>
+    p > #keep-big {
         width: 100% !important;
         max-width: 100% !important;
     }
@@ -8,8 +8,9 @@
 
 <h1 id="csc305-fall-2021-the-business-team-project">CSC305 Fall 2021 The ‘Business’ Team Project</h1>
 
-<p><img src="/img/csc305finalproject.jpg" alt="Introducing the application schedulizer with screenshots of the apps." />
-Our team wanted to build a fully functional courses schedule app that helps students and falcuty easily manage and visualize the courses and make better decisions.</p>
+<p align="center"><img id="keep-big" src="/img/csc305finalproject.jpg" alt="Group Members" /></p>
+
+<p>Our team wanted to build a fully functional courses schedule app that helps students and falcuty easily manage and visualize the courses and make better decisions.</p>
 
 <h2 id="our-members-from-the-business-team">Our members from the Business Team</h2>
 
@@ -18,7 +19,7 @@ Our team wanted to build a fully functional courses schedule app that helps stud
 <p>From the left to right, we have Max, Viet, Hubert, and Ryan.
 I love all of them, and I have the best experience ever to work in a group.</p>
 
-<p align="center"><img id="keep-big" src="/img/groupphoto.jpg" alt="Group Members" /></p>
+<p align="center"><img src="/img/groupphoto.jpg" alt="Group Members" /></p>
 <p align="center"><img class="resize-img" src="/img/drawgroupphoto.png" alt="Group Members" /></p>
 
 <h2 id="my-part-in-the-team">My part in the team</h2>
