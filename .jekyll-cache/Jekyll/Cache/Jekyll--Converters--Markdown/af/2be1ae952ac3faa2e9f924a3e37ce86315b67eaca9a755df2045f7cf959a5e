@@ -1,0 +1,42 @@
+I"~	<style>
+    p > #keep-big {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    
+</style>
+
+<h1 id="csc305-fall-2021-the-business-team-project">CSC305 Fall 2021 The ‘Business’ Team Project</h1>
+
+<p><img src="/img/csc305finalproject.jpg" alt="Introducing the application schedulizer with screenshots of the apps." />
+Our team wanted to build a fully functional courses schedule app that helps students and falcuty easily manage and visualize the courses and make better decisions.</p>
+
+<h2 id="our-members-from-the-business-team">Our members from the Business Team</h2>
+
+<p>Hint: Why would we name out team “Business”? Because it’s a class joke at the begining of the year since there is a group named the “Human” Team so we go with the name of a project class “Business”.</p>
+
+<p>From the left to right, we have Max, Viet, Hubert, and Ryan.
+I love all of them, and I have the best experience ever to work in a group.</p>
+
+<p align="center"><img id="keep-big" src="/img/groupphoto.jpg" alt="Group Members" /></p>
+<p align="center"><img class="resize-img" src="/img/drawgroupphoto.png" alt="Group Members" /></p>
+
+<h2 id="my-part-in-the-team">My part in the team</h2>
+
+<p>I worked mostly on the user experience, as the interface where people interacting with the software. The algorithm for analyzing parse text from the user. The design is centric on the schedule system of Augustana College on the student portal “Arches”.</p>
+
+<p>I also helped the team to organize methods and creating the class object “Course” to managing the data from a course.</p>
+
+<p align="center"><img class="resize-img" src="/img/parsetab.jpg" alt="Group Members" /></p>
+
+<p>The functionalities of the main window are very important to me as I want to deliver the best experience in intuitive output. Such as when the user parse course, the “Add course” button will let the user know how many courses are their in the system, this can be update by the user adding more course into the parse text. The first window can handle all kind of course.</p>
+
+<p align="center"><img class="resize-img" src="/img/createtab.jpg" alt="Group Members" /></p>
+
+<p>The “Create” tab also another option for the user to manually add course into the system.</p>
+
+<h2 id="gist-of-the-project">Gist of the project</h2>
+
+<script src="https://gist.github.com/vietbuiminh/feecf5182eb4b648373499193e619f49.js"></script>
+
+:ET
