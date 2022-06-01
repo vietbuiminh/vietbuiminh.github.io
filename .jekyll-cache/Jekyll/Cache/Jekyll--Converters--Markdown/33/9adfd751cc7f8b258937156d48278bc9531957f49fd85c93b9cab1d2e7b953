@@ -1,4 +1,4 @@
-I"+<style>
+I"<style>
     .gallery {
         flex-direction: column; 
         justify-content: space-between;
@@ -39,8 +39,6 @@
 
 <h2 id="graphics">GRAPHICS:</h2>
 <div class="flex">
-    
-        
     
         
     

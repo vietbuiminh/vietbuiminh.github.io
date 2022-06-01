@@ -1,4 +1,4 @@
-I"l<style>
+I"P<style>
     .gallery {
         flex-direction: column; 
         justify-content: space-between;
@@ -38,8 +38,6 @@
 <h2 id="graphics">GRAPHICS:</h2>
 <h3>2020</h3>
 <div class="flex">
-    
-        
     
         
     
@@ -296,8 +294,6 @@
 </div>
 <h3>2019</h3>
 <div class="flex">
-    
-        
     
         
     

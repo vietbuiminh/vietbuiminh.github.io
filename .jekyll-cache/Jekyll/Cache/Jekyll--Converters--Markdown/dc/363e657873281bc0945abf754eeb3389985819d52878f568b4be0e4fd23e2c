@@ -1,4 +1,4 @@
-I"H<style>
+I",<style>
     .gallery {
         flex-direction: column; 
         justify-content: space-between;
@@ -38,8 +38,6 @@
 <h2 id="graphics">GRAPHICS:</h2>
 <h3 id="stadium-high-school--senior">Stadium High School | Senior</h3>
 <div class="flex">
-    
-        
     
         
     
@@ -303,8 +301,6 @@
 
 <h3 id="burnt-river-high-school--junior">Burnt River High School | Junior</h3>
 <div class="flex">
-    
-        
     
         
     
