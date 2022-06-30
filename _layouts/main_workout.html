@@ -1,0 +1,42 @@
+{% include header_workout.html %}
+<tag style="font-size: 0.9em"><i>{{ page.date | date: "%Y-%m-%d" }}</i></tag>
+{{ content }}
+
+<tag id="modifiedDate" style="font-size: 0.7em;">last update on {{ site.time | date_to_long_string: "ordinal" }}</tag>
+</main>
+<footer id="footer-placeholder">
+    <script type="text/javascript">
+        let temp = '';
+        let unitype;
+        function changeText(text, type) {
+            if (type == 1) {
+                var display = document.getElementById('text-display1');
+            } else if (type == 2) {
+                var display = document.getElementById('text-display2');
+            }
+            unitype = type
+            temp = display.innerHTML;
+            display.innerHTML = "";
+            display.innerHTML = text;
+            display.style = "font-weight: bold";
+        }
+
+        function defaultText() {
+            if (unitype == 1) {
+                var display = document.getElementById('text-display1');
+            } else if (unitype == 2) {
+                var display = document.getElementById('text-display2');
+            }
+            display.innerHTML = "";
+            display.innerHTML = temp;
+            display.style = "font-weight: regular";
+        }
+
+    </script>
+
+    <span class="text">Sites by Viet</span>
+</footer>
+<script src="{{ " /assets/js/lazy-img-loading.js" | baseurl }}""></script>
+</body>
+
+</html>
