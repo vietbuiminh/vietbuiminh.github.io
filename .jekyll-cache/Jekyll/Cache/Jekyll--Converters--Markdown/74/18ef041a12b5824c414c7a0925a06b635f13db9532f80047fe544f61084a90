@@ -1,86 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Begin Jekyll SEO tag v2.8.0 -->
-<meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Viet’s Workout Guide Image Storage" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Viet can remember much of his workout routine. He indeed keeps track of the work out plans on his Notion but he need to check if his form is correct. He use this page to double check that 😂." />
-<meta property="og:description" content="Viet can remember much of his workout routine. He indeed keeps track of the work out plans on his Notion but he need to check if his form is correct. He use this page to double check that 😂." />
-<link rel="canonical" href="http://localhost:4000/workout/" />
-<meta property="og:url" content="http://localhost:4000/workout/" />
-<meta property="og:site_name" content="vietbui" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Viet’s Workout Guide Image Storage" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Viet can remember much of his workout routine. He indeed keeps track of the work out plans on his Notion but he need to check if his form is correct. He use this page to double check that 😂.","headline":"Viet’s Workout Guide Image Storage","url":"http://localhost:4000/workout/"}</script>
-<!-- End Jekyll SEO tag -->
-
-    <title>Work Out Image Gallery</title>
-    <link rel="stylesheet" href=" /assets/css/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <link rel="shortcut icon" href=" /img/SVG/favicon.svg" type="image/x-icon">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T9TF4F3YQJ"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-T9TF4F3YQJ');
-    </script>
-</head>
-
-<body>
-    <style>
-        :root {
-            --backgroundcolor: white;
-            --textcolor: rgb(17, 29, 23);
-            --linkcolor: rgb(5, 122, 87);
-            --footercolor: rgb(0, 157, 219);
-            --highlight: rgba(0, 255, 234, 0.521);
-        }
-
-        .workout-bg {
-            background: radial-gradient(#000c 0%, #000d),
-                url("/img/andreen_bg.jpg") 50% / cover #0000;
-        }
-    </style>
-    <header class="workout-bg">
-        <nav id="nav-placeholder">
-    <span class="homelink">
-        <a href="/workout">🤸‍♂️Work out</a>
-    </span>
-
-</nav>
-        <div class="signature">
-            <h1>VIET'S WORKOUT GUIDE IMAGE STORAGE</h1>
-
-        </div>
-
-        <div class="selfscript">
-            <span class="brief">Viet can remember much of his workout routine. He indeed keeps track of the work out plans on his Notion but he need to check if his form is correct. He use this page to double check that 😂.</span>
-        </div>
-    </header>
-    <main>
-<tag style="font-size: 0.9em"><i></i></tag>
-<p>Click on to get full size photos.</p>
+I"H<p>Click on to get full size photos.</p>
 
 <style>
     .gallery {
         flex-direction: column; 
         justify-content: space-between;
         position: relative; 
+        width: 200px;
+        margin-right: 10px;
+        margin-bottom: 10px;
         border-radius: 1px;
-        margin-bottom: 0 !important;
     }
     .gallery a {
         width: 100%;
@@ -104,24 +32,16 @@
     .gallery .link {
         text-align: center;
     }
-    .grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 1em;
-    }
     @media (max-width: 68em) {
         .gallery {
-            width: 40vw;
+            width: 20vw;
             margin-right: 1vw;
             margin-bottom: 1vw;
-        }
-        .grid {
-            grid-template-columns: 1fr 1fr;
         }
     }
 </style>
 
-<div class="grid">
+<div class="flex">
     
         
     
@@ -714,43 +634,4 @@
         
     
 </div>
-
-
-<tag id="modifiedDate" style="font-size: 0.7em;">last update on 1st July 2022</tag>
-</main>
-<footer id="footer-placeholder">
-    <script type="text/javascript">
-        let temp = '';
-        let unitype;
-        function changeText(text, type) {
-            if (type == 1) {
-                var display = document.getElementById('text-display1');
-            } else if (type == 2) {
-                var display = document.getElementById('text-display2');
-            }
-            unitype = type
-            temp = display.innerHTML;
-            display.innerHTML = "";
-            display.innerHTML = text;
-            display.style = "font-weight: bold";
-        }
-
-        function defaultText() {
-            if (unitype == 1) {
-                var display = document.getElementById('text-display1');
-            } else if (unitype == 2) {
-                var display = document.getElementById('text-display2');
-            }
-            display.innerHTML = "";
-            display.innerHTML = temp;
-            display.style = "font-weight: regular";
-        }
-
-    </script>
-
-    <span class="text">Sites by Viet</span>
-</footer>
-<script src=" /assets/js/lazy-img-loading.js""></script>
-</body>
-
-</html>
+:ET
