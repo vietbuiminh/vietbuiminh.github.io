@@ -1,4 +1,4 @@
-I"ðH<p>Click on to get full size photos.</p>
+I"I<p>Click on to get full size photos.</p>
 
 <style>
     .gallery {
@@ -33,6 +33,7 @@
     .grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1em;
     }
     @media (max-width: 68em) {
         .gallery {
@@ -47,6 +48,8 @@
 </style>
 
 <div class="grid">
+    
+        
     
         
     
