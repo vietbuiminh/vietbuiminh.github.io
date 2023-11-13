@@ -6,10 +6,9 @@ description: Việt Bùi, a creative artist & coder, a student, a naturalist, an
 
 # CREATIVE CODER & STE<a style="text-transform: capitalize" class="link coloranimate hover-underline-animation" href="/art">Art</a>M ADVOCATE
 
-Việt Bùi, a creative artist, a coder, an aspired researcher, a student, a naturalist, and a global citizen. Born and raised in Ho Chi Minh City (HCMC), Vietnam. I have been studying in Oregon, Washington, and Illinois.
+Bringing worlds together through art and science. Việt Bùi is a creative explorer who utilizes technology and design to make an impact. Born in the vibrant city of Ho Chi Minh, Vietnam, he has expanded his perspectives while studying across the United States in Oregon, Washington and Illinois.
 
-Using art and science to influence people. Graphic artist for clubs, and non-profit organizations in HCMC and the United States. Coder in a few hackathons, and coder by everyday. Student researcher @ Augustana. 
-
+Việt seeks to harness his diverse experiences to connect ideas and people. As a graphic artist, he has developed designs for clubs and nonprofits in Vietnam and the U.S. His curiosity also leads him to code and participate in hackathons. Currently studying at Augustana, he is an aspiring researcher who wants to push the boundaries of what's possible.
 
 <div class="tags" style="justify-content: flex-start;">
     {% for tag in site.tags reversed %}
@@ -17,7 +16,7 @@ Using art and science to influence people. Graphic artist for clubs, and non-pro
     {% endfor %}
 </div>
 <br><br>
-Feeling adventurous? I enjoy going around the country to different national parks. Best overall are Mt.Rainier and Tongass.
+Feeling adventurous? He enjoy goes around the country to different national parks. Best overall are Mt.Rainier and Tongass.
 <div class="imgrow">
         <a class="grayscl" target="_blank" href="./img/rainier.jpg">
                 <img src="/img/rainier.jpg" alt="Mt. Rainier National Park">
