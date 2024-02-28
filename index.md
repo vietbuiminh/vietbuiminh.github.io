@@ -8,7 +8,7 @@ description: Việt Bùi, a creative artist & coder, a student, a naturalist, an
 
 Bringing worlds together through art and science. Việt Bùi is a creative explorer who utilizes technology and design to make an impact. Born in the vibrant city of Ho Chi Minh, Vietnam, he has expanded his perspectives while studying across the United States in Oregon, Washington and Illinois.
 
-Việt seeks to harness his diverse experiences to connect ideas and people. As a graphic artist, he has developed designs for clubs and nonprofits in Vietnam and the U.S. His curiosity also leads him to code and participate in hackathons. Currently studying at Augustana, he is an aspiring researcher who wants to push the boundaries of renewable energy.
+Việt seeks to harness his diverse experiences to connect ideas and people. As an engineer, a computer scientist, and a graphic designer he designs solution and new ideas for projects to clubs and nonprofits in Vietnam and the U.S. Currently studying at Augustana, he is an aspiring researcher who wants to push the boundaries of renewable energy.
 
 <div class="tags" style="justify-content: flex-start;">
     {% for tag in site.tags reversed %}
