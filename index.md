@@ -16,7 +16,7 @@ Việt seeks to harness his diverse experiences to connect ideas and people. As 
     {% endfor %}
 </div>
 <br><br>
-Feeling adventurous? He enjoy goes around the country to different national parks. Best overall are Mt.Rainier and Tongass.
+Feeling adventurous? He enjoy goes around the country to different national parks. Best overall are Mt.Rainier and Tongass. Recently he spent a month in Holden Village, WA to learn and immerse in one of the most sustianable off-grid community in the US.
 <div class="imgrow">
         <a class="grayscl" target="_blank" href="./img/rainier.jpg">
                 <img src="/img/rainier.jpg" alt="Mt. Rainier National Park">
