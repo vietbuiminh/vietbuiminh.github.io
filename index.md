@@ -21,11 +21,11 @@ Feeling adventurous? He enjoy goes around the country to different national park
         <a class="grayscl" target="_blank" href="./img/rainier.jpg">
                 <img src="/img/rainier.jpg" alt="Mt. Rainier National Park">
         </a>
-        <a class="grayscl" target="_blank" href="./img/me.jpg">
-                <img src="/img/me.jpg" alt="Viet Bui in Seattle">
-        </a>
         <a class="grayscl" target="_blank" href="./img/tongass.jpg">
                 <img src="/img/tongass.jpg" alt="Tongass National Park">
+        </a>
+        <a class="grayscl" target="_blank" href="./img/me.jpg">
+                <img src="/img/holden.jpeg" alt="Holden Village">
         </a>
         <div class="sticker">
                 <a>
