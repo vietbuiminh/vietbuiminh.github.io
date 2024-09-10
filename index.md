@@ -1,14 +1,14 @@
 ---
 title: about
 layout: main
-description: Việt Bùi, a creative artist & coder, a student, a naturalist, and a global citizen. Born and raised in Ho Chi Minh City (HCMC), Vietnam. Using art to influence people. Graphic artist for clubs, and non-profit organizations in HCMC and the United States. Coder in a few hackathons, and coder by everyday.
+description: Việt Bùi, a creative explorer leveraging technology and design to make an impact.
 ---
 
-# CREATIVE CODER & STE<a style="text-transform: capitalize" class="link coloranimate hover-underline-animation" href="/art">Art</a>M ADVOCATE
+# Bridging Art and Science to Reveal Earth's Secrets
 
-Bringing worlds together through art and science. Việt Bùi is a creative explorer who utilizes technology and design to make an impact. Born in the vibrant city of Ho Chi Minh, Vietnam, he has expanded his perspectives while studying across the United States in Oregon, Washington and Illinois.
+Bringing worlds together through art and science, Việt is a creative explorer leveraging technology and design to make an impact. Born in Ho Chi Minh City, Vietnam, he has broadened his horizons studying across the U.S. in Oregon, Washington, and Illinois. Currently, he researches and analyzes data with Dr. Andrew Wickert's group at the University of Minnesota.
 
-Việt seeks to harness his diverse experiences to connect ideas and people. As an engineer, a computer scientist, and a graphic designer he designs solution and new ideas for projects to clubs and nonprofits in Vietnam and the U.S. Currently studying at Augustana, he is an aspiring researcher who wants to push the boundaries of renewable energy.
+Việt connects ideas and people through his diverse experiences as an engineer, computer scientist, and graphic designer. He creates solutions for clubs and nonprofits in Vietnam and the U.S. A recent graduate, he is about to start his PhD program at the University of Florida.
 
 <div class="tags" style="justify-content: flex-start;">
     {% for tag in site.tags reversed %}
