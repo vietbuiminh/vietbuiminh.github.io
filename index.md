@@ -8,7 +8,7 @@ description: Việt Bùi, a creative explorer leveraging technology and design t
 
 Bringing worlds together through art and science, Việt is a creative explorer leveraging technology and design to make an impact. Born in Ho Chi Minh City, Vietnam, he has broadened his horizons studying across the U.S. in Oregon, Washington, and Illinois. Currently, he researches and analyzes data with Dr. Andrew Wickert's group at the University of Minnesota.
 
-Việt connects ideas and people through his diverse experiences as an engineer, computer scientist, and graphic designer. He creates solutions for clubs and nonprofits in Vietnam and the U.S. A recent graduate, he is about to start his PhD program at the University of Florida.
+Việt connects ideas and people through his diverse experiences as an engineer, computer scientist, and graphic designer. He creates solutions for clubs and nonprofits in Vietnam and the U.S. A recent graduate, he is going to his graduate program at the University of Florida in Hydrology to model earth surfaces from sea levels changes from glacial isostatic adjustment (GIA) to deltaic sediment transport in contact with the sea level. 
 
 <div class="tags" style="justify-content: flex-start;">
     {% for tag in site.tags reversed %}
