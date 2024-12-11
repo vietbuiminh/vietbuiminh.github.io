@@ -14,7 +14,7 @@ I have been to various places with different stages of my education from Oregon 
 Currently, I am a researcher in Dr. Andrew Wickert's Earth Surfaces Processes Research group (MNiMORPH) at the University of Minnesota.
 
 
-I am PhD student at University of Florida. I am also an engineer, a computer scientist, and someone who would go ahead and hug tree when I see one. 
+I am a PhD student at University of Florida. I am also an engineer, a computer scientist, and someone who would go ahead and hug tree when I see one. 
 
 <div class="tags" style="justify-content: flex-start;">
     {% for tag in site.tags reversed %}
