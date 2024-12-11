@@ -4,11 +4,17 @@ layout: main
 description: Việt Bùi, a creative explorer leveraging technology and design to make an impact.
 ---
 
-# Bridging Art and Science to Reveal Earth's Secrets
+<h1 style="text-transform:lowercase;">hello there!</h1>
 
-Bringing worlds together through art and science, Việt is a creative explorer leveraging technology and design to make an impact. Born in Ho Chi Minh City, Vietnam, he has broadened his horizons studying across the U.S. in Oregon, Washington, and Illinois. Currently, he researches and analyzes data with Dr. Andrew Wickert's group at the University of Minnesota.
+Welcome to my tiny web corner!
 
-Việt connects ideas and people through his diverse experiences as an engineer, computer scientist, and graphic designer. He creates solutions for clubs and nonprofits in Vietnam and the U.S. A recent graduate, he is going to his graduate program at the University of Florida in Hydrology to model earth surfaces from sea levels changes from glacial isostatic adjustment (GIA) to deltaic sediment transport in contact with the sea level. 
+If you have not known me, here are a few gists that you might find interesting.
+Born in Ho Chi Minh City, Vietnam,
+I have been to various places with different stages of my education from Oregon to Washington, Illinois to Minnesota. 
+Currently, I am a researcher in Dr. Andrew Wickert's Earth Surfaces Processes Research group (MNiMORPH) at the University of Minnesota.
+
+
+I am PhD student at University of Florida. I am also an engineer, a computer scientist, and someone who would go ahead and hug tree when I see one. 
 
 <div class="tags" style="justify-content: flex-start;">
     {% for tag in site.tags reversed %}
@@ -16,7 +22,6 @@ Việt connects ideas and people through his diverse experiences as an engineer,
     {% endfor %}
 </div>
 <br><br>
-Feeling adventurous? He enjoy goes around the country to different national parks. Best overall are Mt.Rainier and Tongass. Recently he spent a month in Holden Village, WA to learn and immerse in one of the most sustianable off-grid community in the US.
 <div class="imgrow">
         <a class="grayscl" target="_blank" href="./img/rainier.jpg">
                 <img src="/img/rainier.jpg" alt="Mt. Rainier National Park">

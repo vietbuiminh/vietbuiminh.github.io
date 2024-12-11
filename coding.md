@@ -4,6 +4,7 @@ layout: main
 description: A few of my featured projects.
 categories: [coding]
 ---
+Most of my coding projects are on github.
 
 A few of my featured projects.
 {% assign j = 0 %}

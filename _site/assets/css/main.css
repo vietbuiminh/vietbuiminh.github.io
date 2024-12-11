@@ -1,9 +1,9 @@
 :root {
   --backgroundcolor: white;
   --textcolor: rgb(59, 59, 59);
-  --linkcolor: rgb(207, 4, 4);
+  --linkcolor: rgb(34, 103, 78);
   --footercolor: rgb(36, 0, 0);
-  --highlight: rgba(255, 0, 0, 0.214);
+  --highlight: rgba(0, 255, 89, 0.214);
 }
 
 * {
@@ -545,7 +545,7 @@ footer {
   }
 }
 */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --linkcolor: rgb(255, 52, 52);
     --textcolor: rgb(255, 255, 255);
@@ -565,4 +565,4 @@ footer {
   .tag {
     border-color: rgb(59, 59, 59);
   }
-}
+} */
