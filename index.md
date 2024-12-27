@@ -1,7 +1,7 @@
 ---
 title: about
 layout: main
-description: Việt Bùi, a creative explorer leveraging technology and design to make an impact.
+description: Viet M Bui, PhD Student studying the interaction between sea-level and sediment transport of delta regions.
 ---
 
 <h1 style="text-transform:lowercase;">hello there!</h1>
