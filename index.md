@@ -11,10 +11,8 @@ Welcome to my tiny web corner!
 If you have not known me, here are a few gists that you might find interesting.
 Born in Ho Chi Minh City, Vietnam,
 I have been to various places with different stages of my education from Oregon to Washington, Illinois to Minnesota. 
-Currently, I am a researcher in Dr. Andrew Wickert's Earth Surfaces Processes Research group (MNiMORPH) at the University of Minnesota.
-
-
-I am a PhD student at University of Florida. I am also an engineer, a computer scientist, and someone who would go ahead and hug tree when I see one. 
+Currently, I am a researcher in Dr. Jorge Lorenzo-Trueba's Coastal Dynamic Lab at University of Florida.
+I am also an engineer, a computer scientist, and someone who would go ahead and hug tree when I see one. 
 
 <div class="tags" style="justify-content: flex-start;">
     {% for tag in site.tags reversed %}
