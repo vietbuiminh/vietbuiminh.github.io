@@ -8,9 +8,9 @@ description: Viet M Bui, PhD Student studying the interaction between sea-level 
 
 Welcome to my tiny web corner!
 
-<p>
-<img style="float: left; margin-right: 1em;"src="img/IMG_4496.jpeg" alt="Me in the water of Whitewater river in Minnesota">
-</p>
+
+<p><img style="float: left; margin-right: 1em;"src="img/IMG_4496.jpeg" alt="Me in the water of Whitewater river in Minnesota"></p>
+
 
 If you have not known me, here are a few gists that you might find interesting.
 Born in Ho Chi Minh City, Vietnam,
