@@ -1,6 +1,6 @@
 ---
 layout: main
-title: vietmbui.com
+title: Multiple Pathways of Climate Change
 full_title: "Essay on Tectonic Uplift and Multiple Pathways of Climate Change"
 image: /img/tectonicclimate.png
 image-alt: Drawing for the essay
