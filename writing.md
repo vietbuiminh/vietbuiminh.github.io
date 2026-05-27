@@ -12,7 +12,7 @@ A few of my featured projects.
 
 <div style="animation-delay:calc({% increment z %} * 0.2s);" class="gallery">
     <div class="desc">
-        <h2 style="margin-top: 0; line-height: 1em;">{{ post.full-title | upcase }}</h2>
+        <h2 style="margin-top: 0; line-height: 1em;">{{ post.full_title | upcase }}</h2>
         <tag style="font-size: 0.9em"><i>{{ post.date | date: "%Y-%m-%d" }}</i></tag>
         <p>{{ post.description }}</p>
         <span class="bottomrow">

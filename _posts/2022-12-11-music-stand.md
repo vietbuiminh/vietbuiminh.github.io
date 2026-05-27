@@ -1,7 +1,7 @@
 ---
 layout: main
 title: MusicStand
-full-title: "Foldable Music Stand"
+full_title: "Foldable Music Stand"
 image: /assets/img/music-stand/violinist-w-stand.png
 image-alt: 3D Modeling of the improved music stand with the human scale
 description: An Engineering design modeling project on improving the foldable music stand.
@@ -40,7 +40,7 @@ tags: [writing, research, engineering, design, art]
         text-align: center;
     }
 </style>
-# {{ page.full-title }}
+# {{ page.full_title }}
 ![{{ page.image-alt }}]({{ '/assets/img/music-stand/improved-parts.png' | relative_url }})
 
 {{ page.description}}

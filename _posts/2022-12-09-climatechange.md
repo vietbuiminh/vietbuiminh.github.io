@@ -1,7 +1,7 @@
 ---
 layout: main
 title: Climate Change
-full-title: "Investigating Climate Change Using Mathematical Modeling"
+full_title: "Investigating Climate Change Using Mathematical Modeling"
 image: /img/fitting.png
 image-alt: beta fitting the ice core data with co2 for correlation
 description: A research and mathematical modeling analysis project in Math 340 2022.
@@ -40,7 +40,7 @@ tags: [coding, writing, research]
         text-align: center;
     }
 </style>
-# {{ page.full-title }}
+# {{ page.full_title }}
 ![{{ page.image-alt }}]({{ page.image | relative_url }})
 
 {{ page.description}}

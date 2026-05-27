@@ -1,7 +1,7 @@
 ---
 layout: main
 title: vietmbui.com
-full-title: "Essay on Tectonic Uplift and Multiple Pathways of Climate Change"
+full_title: "Essay on Tectonic Uplift and Multiple Pathways of Climate Change"
 image: /img/tectonicclimate.png
 image-alt: Drawing for the essay
 description: This essay argues that late Cenozoic coolings were not the result of a single tectonic trigger, but of an ensemble of interacting mechanisms in which uplift of mountains altered the flow of atmospheric circulation, tectonically enhanced weathering that modified the carbon budget in the global atmosphere, ocean gateway reorganization changed heat exchange, and latest work has shown that mountain weather itself can back as both a sink and source of carbon dioxide.
