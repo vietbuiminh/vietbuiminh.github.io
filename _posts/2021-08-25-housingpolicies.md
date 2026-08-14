@@ -3,6 +3,7 @@ layout: main_ca
 title: Housing Policies 📃
 description: COVID, Quiet Hours & Coutesy Hours, Visitation Hours, Smoking, Alcohol and other drugs, Decoration, Fire Safety, Community Safety, and Warning
 categories: [ca]
+sitemap: false
 ---
 
 # Housing Policies

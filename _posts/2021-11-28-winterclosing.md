@@ -3,6 +3,7 @@ layout: main_ca
 title: Winter Closing Information ❄️
 description: Defrosting the fridge? Locking window? Can I stay on campus for winter break? All the information you need before leaving or planing this winter holiday 🏂
 categories: [ca]
+sitemap: false
 ---
 
 <style>

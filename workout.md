@@ -2,6 +2,7 @@
 title: Viet's Workout Guide Image Storage
 layout: main_workout
 description: Viet can remember much of his workout routine. He indeed keeps track of the work out plans on his Notion but he need to check if his form is correct. He use this page to double check that 😂.
+sitemap: false
 ---
 Click on to get full size photos.
 

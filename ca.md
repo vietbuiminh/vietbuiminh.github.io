@@ -2,6 +2,7 @@
 title: Welcome to Andreen 2nd Floor!
 layout: main_ca
 description: Andreen 2nd Floor CA Portal.
+sitemap: false
 ---
 
 Click on read more for full articles.
