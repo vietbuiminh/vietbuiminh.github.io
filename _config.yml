@@ -1,6 +1,10 @@
 name: vietbui
 title: "vietbui"
+description: "Viet M Bui, PhD Student studying the interaction between sea-level and sediment transport of Arctic delta regions."
+url: "https://www.vietmbui.com"
 permalink: /:categories/:title/
 baseurl: /
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
