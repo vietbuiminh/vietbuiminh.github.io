@@ -8,7 +8,7 @@ layout: main
 
 <div style="animation-delay:calc({% increment engineering-tag-count %} * 0.2s);" class="gallery">
     <a target="_blank" href="{{ post.image }}">
-        <img class="lazy" data-src="{{ post.image }}" alt="{{ post.img-alt }}" />
+        <img class="lazy" data-src="{{ post.image }}" alt="{{ post.image-alt }}" />
     </a>
     <div class="desc">
         <h2 style="margin-top: 0; line-height: 1em;">{{ post.full_title | upcase }}</h2>

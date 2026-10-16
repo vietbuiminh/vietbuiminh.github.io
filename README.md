@@ -1,179 +1,138 @@
-# Viet Bui Personal & Portfolio Website
-## _Started with Jekyll Website_
+# vietmbui.com
 
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/vietbuiminh/vietbuiminh.github.io/main/LICENSE) [![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.7-blue.svg)](https://jekyllrb.com/) [![Ruby gem](https://img.shields.io/gem/v/minimal-mistakes-jekyll.svg)](https://rubygems.org/gems/minimal-mistakes-jekyll)
-[vietmbui.com](https://www.vietmbui.com/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg)](LICENSE) [![Jekyll 4.3](https://img.shields.io/badge/jekyll-4.3-blue.svg)](https://jekyllrb.com/)
 
-I am leaving a note down here for myself or whom interested in managing pages on their website with ease by creating template using the newly powerful technology that I recently discover, [Jekyll](https://jekyllrb.com/).
+Source for my personal and portfolio site, [vietmbui.com](https://www.vietmbui.com/). It's a hand-built [Jekyll](https://jekyllrb.com/) site with no theme: every layout, include and style lives in this repo.
 
-Reason why I almost stop coding a complicated with raw html & css:
-- Jekyll creates a secure framework
-- Automatic generate pages with the template
-- Work well with static server (Github Page: I mean it's free so why not make it work better than PHP?) 
+## Run it locally
 
-## Install
-This project I worked mainly on Windows so please consider my process before doing it on yourown.
-1. Set up a folder for the project or create a github repo on your computer, then open it with VSCode.
-Make sure that VSCode is configured to type in terminal or git bash. [ctrl] + [`] to open the terminal.
-2. Install [Ruby](https://rubyinstaller.org/downloads/)
-```ruby -v``` to check version of ruby
-3. Check for Gem
-```gem -v```
-4. Install Jekyll
-```gem intall jekyll``` 
-if you check on the Jekyll website I specifically not using the ```gem install bundler``` because I want to customize everything for myself and not fighting against the automatic template that jekyll will add for you new project.
-5. create these files and folder in your project folder 
-    ```
-    .
-    ├── _config.yml (the hyphen infront is important for jekyll to run and serve)
-    ├── _include
-    │      └── footer.html
-    │      └── header.html
-    │      └── nav.html
-    ├── _layouts
-    │      └── default.html
-    ├── _post
-    │      └── [year]-[mo]-[da]-[title].md
-    ├── assets
-    │      └── css___main.css
-    └── index.md```
-6. Following this [article](https://jekyllrb.com/tutorials/convert-site-to-jekyll/) to get a clear view on why we are doing these 
-7. Learn [Liquid](https://jekyllrb.com/docs/step-by-step/02-liquid/) notice on the if else statement and for loop
+You need Ruby 3.x and Bundler. On macOS, install Ruby with Homebrew or rbenv (the system Ruby is too old); on Windows, use [RubyInstaller](https://rubyinstaller.org/downloads/).
 
-## Configure your file
-Navigate to _config.yml and add:
+```sh
+bundle install        # first time, or after the Gemfile changes
+bundle exec jekyll serve --livereload
 ```
-name: [yourname]
-title: [yoursitetitle]
-permalink: /:categories/:title/ 
-baseurl: /
-```
-the permalink will help to reduce the link file for example if in your _post folder you create markdown file with the name ```2021-02-01-title.md``` the file will serve in the _site as /2021/02/01/title.html rather than /title.html/
 
-## Create a Template for your website
-Navigate to _layouts default.html file. We will using Liquid to piece header, content, and footer.
-- Add liquid tag ```{% include header.html %}``` to the top of the file, this will let jekyll get the file from _include folder and add to your template.
-- I personally put a date tag ```<tag style="font-size: 0.9em"><i>{{ page.date | date: "%Y-%m-%d" }}</i></tag>``` (put what if you want don't want the date to appear in the front page aka. index.html? Don't worry it will not because the index.md does not have the date name like _post).
-- ```{{ content }}``` will get the content after the  front matter both in index.md and the posts.
-- Finally footer {% include footer.html %}
+Then open <http://localhost:4000>. Useful extras:
 
-## Markdown file
-Remember to add 
+- `--drafts` also builds posts in `_drafts/`
+- `--trace` prints the full error when a build fails
+
+`_config.yml` is only read at startup, so restart the server after editing it.
+
+## Deployment
+
+Pushing to `main` deploys the site. The GitHub Actions workflow in [`.github/workflows/jekyll.yml`](.github/workflows/jekyll.yml) runs `bundle exec jekyll build` on Ruby 3.2 and publishes `_site/` to GitHub Pages. The custom domain comes from [`CNAME`](CNAME).
+
+Because the site builds in Actions rather than GitHub's classic Pages builder, any gem in the `Gemfile` and anything in `_plugins/` works in production.
+
+## Project structure
+
 ```
+.
+├── _config.yml          site settings, permalink style, plugins
+├── _layouts/
+│   ├── main.html        default page layout (header, breadcrumbs, footer)
+│   ├── default.html
+│   └── main_ca.html, main_photo.html, main_workout.html   one-off layouts
+├── _includes/           header, nav, footer, breadcrumbs, signature SVG
+├── _posts/              projects and writing, named YYYY-MM-DD-slug.md
+├── _drafts/             unpublished posts (shown only with --drafts)
+├── _plugins/            compatibility.rb, a shim for newer Ruby versions
+├── tags/                one page per tag, e.g. tags/engineering.md
+├── assets/
+│   ├── css/main.css     all site styles
+│   ├── js/              lazy image loading
+│   ├── img/             images for posts, one folder per project
+│   └── docs/            PDFs (CV, papers)
+├── img/                 general site images
+├── index.md             home / about page
+├── art.md, coding.md, writing.md   category listing pages
+├── now.md               /now page
+└── robots.txt
+```
+
+`_site/` is build output and is git-ignored. Never edit files in it.
+
+## Writing a post
+
+Create `_posts/YYYY-MM-DD-slug.md`:
+
+```yaml
 ---
-# front matter as to store the data for your page/site
-title: home
-layout: default
+layout: main
+title: buibuoy                  # short title, used in the URL and page heading
+full_title: "Modular Aquatic Research Station"   # shown on gallery cards
+breadcrumb: buibuoy             # optional: short label for the breadcrumb pill
+description: One or two sentences for the gallery card and search engines.
+image: /assets/img/buibuoy/cover.jpg
+image-alt: Describe the image
+categories: [writing, research] # decides the URL and which listing pages show it
+tags: [research, engineering]   # each needs a matching page in tags/
+published: false                # optional: hide it without deleting it
+sitemap: false                  # optional: keep it out of sitemap.xml
 ---
-# HEADER 1
-## HEADER 2
-
-Lorem
 ```
-layout default will get the default.html in your _layouts folder and generate a page out of that for you.
-bellow front matter is the start of content for your page as in {{ content }} in your template.
 
-## Let Serve the Site on Local Server
-```jekyll serve``` in your terminal to run.
-type _localhost:4000_ on your desire browser
+URLs follow `permalink: /:categories/:title/`, so the example above is served at `/writing/research/buibuoy/`.
 
-## Troubleshooting when the serve fail to run
-type ```jekyll serve --trace``` to read the problem
-after that try to type 
-```bundle install```
-```jekyll serve``` again
-If not please check the config.yml or any liquid that cause the problem. 
-Happy troubleshooting, and Google is still your best friend for this problem.
+### Front matter for pages
 
-## Search engine optimization (SEO) for your site
-Check out the [github repo](https://github.com/jekyll/jekyll-seo-tag) for seo tag
+- `breadcrumb:` replaces the title in the breadcrumb when the title is long (see `now.md`).
+- `updated: YYYY-MM-DD` shows a "last updated" date in the page content and hides the footer's build date. Change it by hand whenever you edit the page.
 
-- Go to [installation](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/installation.md) read and since we don't have gemfile, we create one by just type "Gemfile" as the name for our new file in the projetc folder.
-Make sure you have this in the file:
-    ```
-    gem 'jekyll-seo-tag'
-    gem "webrick"
-    ```
-    In your config.yml add to the bottom 
-    ```
-    plugins:
-  - jekyll-seo-tag
-    ```
-    Add ```{% seo %}``` in your <head></head> in header.html. Because I customized my <title> tag so I used ```{% seo title=false %}``` for my header.html, for more customization for the seo tag [check out](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md).
-- Serve and run your project again
+### Adding a tag
 
-## For loop loading posts
-example for my coding page.
-in my posts md front matter I added ```categories: [coding]``` to list all post in the categories array.
-```html
-{% for post in site.categories.coding reversed %}
+Copy one of the files in `tags/` (e.g. `tags/engineering.md`), rename it, and change the tag name in its title and in `site.tags.<name>`.
 
-<div class="gallery">
-    <a target="_blank" href="{{ post.image }}">
-        <img src="{{ post.image }}" alt="{{ post.img-alt }}" />
-    </a>
-    <div class="desc">
-        <h2 style="margin-top: 0; line-height: 1em;">{{ post.full_title | upcase }}</h2>
-        <p>{{ post.description }}</p>
-        <span class="bottomrow">
-            <span class="tags">
-                <a class="button link" href="{{ post.url }}">
-                    read more &#x2192;</a>
-            </span>
-            <span class="tags">
-                {% for tag in post.tags %}
-                <a class="tag link">#{{ tag }}</a>
-                {% endfor %}
-            </span>
-        </span>
-    </div>
-</div>
+## Plugins
 
+| Plugin | What it does |
+|---|---|
+| `jekyll-seo-tag` | Meta and Open Graph tags, via `{% seo title=false %}` in `header.html` (the `<title>` is written by hand) |
+| `jekyll-sitemap` | Generates `/sitemap.xml`; pages with `sitemap: false` are left out |
+| `jekyll-feed` | Generates the RSS/Atom feed at `/feed.xml`, linked in the footer |
+
+`csv`, `base64`, `bigdecimal` and `webrick` are in the `Gemfile` because newer Ruby versions no longer bundle them by default, and Jekyll 4.3 still needs them.
+
+## Styling notes
+
+All styles are in [`assets/css/main.css`](assets/css/main.css).
+
+- **`hover-underline-animation`**: link highlight that fills in from the left on hover. In the nav, the current page's link gets `id="active"` and keeps the highlight on.
+- **`tag`** / **`button`**: the rounded pills used for tags and breadcrumbs.
+- **`imgrow`**: a three-column photo grid.
+- **`sticker`**: a tilted cut-out image that spins in on page load. Inside an `imgrow` it overlaps the photos. Use `sticker standalone` to place one on its own in the text.
+
+## Notes to myself: Liquid
+
+Listing posts from a category, newest first:
+
+```liquid
+{% assign sorted = site.categories.coding | sort: 'date' | reverse %}
+{% for post in sorted %}
+  <a href="{{ post.url }}">{{ post.full_title }}</a>
 {% endfor %}
 ```
-## if else Statement example
-```html
+
+Showing something only on the home page:
+
+```liquid
 {% if page.url == "/" %}
-    {% include svg.html %}
+  {% include svg.html %}
 {% else %}
-    <h1>{{ page.categories[0] | upcase }}</h1>
+  <h1>{{ page.title | upcase }}</h1>
 {% endif %}
 ```
 
-## Launch project on github
-Change or make sure your repo name is [yourgithubaccount].github.io
+Linking to a page by its source file (the build fails if the file is missing, so links can't silently break):
+
+```liquid
+<a href="{% link now.md %}">/now</a>
 ```
-git add .
-git commit -m"Created project"
-git push
-```
-Go to Setting and scroll down to Github page. 
-Launch the page by choosing the main branch. 
-Check the project!
+
+Good references: [converting a site to Jekyll](https://jekyllrb.com/tutorials/convert-site-to-jekyll/) and the [Liquid step-by-step](https://jekyllrb.com/docs/step-by-step/02-liquid/).
 
 ## License
 
-MIT
-
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-
-   [dill]: <https://github.com/joemccann/dillinger>
-   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
-   [john gruber]: <http://daringfireball.net>
-   [df1]: <http://daringfireball.net/projects/markdown/>
-   [markdown-it]: <https://github.com/markdown-it/markdown-it>
-   [Ace Editor]: <http://ace.ajax.org>
-   [node.js]: <http://nodejs.org>
-   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
-   [jQuery]: <http://jquery.com>
-   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
-   [express]: <http://expressjs.com>
-   [AngularJS]: <http://angularjs.org>
-   [Gulp]: <http://gulpjs.com>
-
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
-   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
+[MIT](LICENSE)
