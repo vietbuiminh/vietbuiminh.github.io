@@ -1,13 +1,18 @@
+{% unless page.updated %}
 <tag id="modifiedDate" style="font-size: 0.7em;">last update on {{ site.time | date_to_long_string: "ordinal" }}</tag>
+{% endunless %}
 </main>
 <footer id="footer-placeholder">
     <span class="contact">
+        <a class="link hover-underline-animation" href="{{ '/feed.xml' | relative_url }}" target="_blank">rss</a>
+        <div class="divider">/</div>
         <a class="link hover-underline-animation" href="https://github.com/vietbuiminh"
-            target="_blank">github:vietbuiminh</a>
+            target="_blank">github</a>
         <div class="divider">/</div>
-        <a class="link hover-underline-animation" href="mailto:buiv@ufl.edu" target="_blank">buiv@ufl.edu</a>
+        <a class="link hover-underline-animation" href="mailto:buiv@ufl.edu" target="_blank">email:edu</a>
         <div class="divider">/</div>
-        <a class="link hover-underline-animation" href="/assets/docs/cv/resume.pdf" target="_blank">Resume</a>
+        <a class="link hover-underline-animation" href="/assets/docs/cv/resume.pdf" target="_blank">cv:pdf</a>
+        
     </span>
 
     <span class="text">Made with sweat & tear by Việt</span>

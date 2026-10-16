@@ -1,6 +1,7 @@
 ---
 layout: main
 title: MusicStand
+breadcrumb: music stand
 full_title: "Foldable Music Stand"
 image: /assets/img/music-stand/violinist-w-stand.png
 image-alt: 3D Modeling of the improved music stand with the human scale

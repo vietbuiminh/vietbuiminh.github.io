@@ -1,6 +1,7 @@
 ---
 layout: main
 title: Multiple Pathways of Climate Change
+breadcrumb: "tectonics & climate"
 full_title: "Essay on Tectonic Uplift and Multiple Pathways of Climate Change"
 image: /img/tectonicclimate.png
 image-alt: Drawing for the essay

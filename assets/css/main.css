@@ -225,6 +225,19 @@ h1 {
   transition: transform 0.2s ease;
 }
 
+/* sticker on its own, outside an .imgrow */
+.sticker.standalone {
+  position: relative;
+  width: min(250px, 50%);
+  bottom: auto;
+  left: auto;
+  margin: 1em auto 2em;
+}
+
+.sticker.standalone img {
+  width: 100%;
+}
+
 .sticker img {
   filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -5px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.5));
 }
@@ -238,6 +251,8 @@ h1 {
 footer {
   display: flex;
   justify-content: space-between;
+  /* don't stretch the links when the signature wraps onto two lines */
+  align-items: flex-start;
   border-top: solid 1px #ccc;
 }
 
@@ -360,10 +375,18 @@ footer {
 /* Animation for hover */
 .hover-underline-animation {
   position: relative;
-  display: inline-block;  
-  border-radius: 2em;      
-  overflow: hidden;
-  isolation: isolate; 
+  isolation: isolate;
+  /* rounded mask; works on inline links too, unlike overflow: hidden */
+  clip-path: inset(0 round 2em);
+}
+
+/* links in text and footer: room for the pill without shifting the layout.
+   negative margins cancel the padding (the bottom one matters in the
+   flex footer; inline links ignore it) */
+p .hover-underline-animation,
+.contact .hover-underline-animation {
+  padding: 0 0.3em 5px;
+  margin: 0 -0.3em -5px;
 }
 
 .hover-underline-animation::after {
@@ -380,8 +403,14 @@ footer {
   z-index: -1;
 }
 
-.hover-underline-animation:hover::after {
+.hover-underline-animation:hover::after,
+#active.hover-underline-animation::after {
   transform: scaleX(1);
+}
+
+/* current section in the nav: keep the text white, the pill shows it */
+.navlinks #active {
+  color: #fff;
 }
 
 .flex {

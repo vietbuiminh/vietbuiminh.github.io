@@ -5,7 +5,7 @@
   {% for crumb in crumbs offset: 1 %}
     {% if forloop.last %}
       <span class="divider" aria-hidden="true"></span>
-      <span class="tag current" aria-current="page">{{ page.title }}</span>
+      <span class="tag current" aria-current="page">{{ page.breadcrumb | default: page.title }}</span>
     {% else %}
       {% assign crumb_limit = forloop.index | plus: 1 %}
       {% capture crumb_url %}{% for c in crumbs limit: crumb_limit %}{{ c | append: '/' }}{% endfor %}{% endcapture %}

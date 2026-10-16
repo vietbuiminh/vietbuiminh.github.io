@@ -1,6 +1,7 @@
 ---
 layout: main
 title: Climate Change
+breadcrumb: climate change
 full_title: "Investigating Climate Change Using Mathematical Modeling"
 image: /img/fitting.png
 image-alt: beta fitting the ice core data with co2 for correlation
