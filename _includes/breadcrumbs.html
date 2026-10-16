@@ -1,0 +1,21 @@
+{% unless page.url == "/" %}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <a class="tag link" href="{{ '/' | relative_url }}">home</a>
+  {% assign crumbs = page.url | remove: '/index.html' | split: '/' %}
+  {% for crumb in crumbs offset: 1 %}
+    {% if forloop.last %}
+      <span class="divider" aria-hidden="true"></span>
+      <span class="tag current" aria-current="page">{{ page.title }}</span>
+    {% else %}
+      {% assign crumb_limit = forloop.index | plus: 1 %}
+      {% capture crumb_url %}{% for c in crumbs limit: crumb_limit %}{{ c | append: '/' }}{% endfor %}{% endcapture %}
+      {% assign crumb_page = site.pages | where: "url", crumb_url | first %}
+      {% comment %} only link folders that have a real page, e.g. skip /tags/ {% endcomment %}
+      {% if crumb_page %}
+      <span class="divider" aria-hidden="true"></span>
+      <a class="tag link" href="{{ crumb_url | relative_url }}">{{ crumb | replace: '-', ' ' }}</a>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</nav>
+{% endunless %}

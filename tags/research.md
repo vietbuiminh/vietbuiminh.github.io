@@ -2,7 +2,6 @@
 title: "#research"
 layout: main
 ---
-<a class="tag link" href="{{ baseurl }}">{{ page.title }}</a>
 {% assign research-tag-count = 0 %}
 {% assign sorted = site.tags.research | sort: 'date' | reverse  %}
 {% for post in sorted %}

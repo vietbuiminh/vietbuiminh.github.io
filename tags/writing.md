@@ -2,7 +2,6 @@
 title: "#writing"
 layout: main
 ---
-<a class="tag link" href="{{ baseurl }}">{{ page.title }}</a>
 {% assign writing-tag-count = 0 %}
 {% assign sorted = site.tags.writing | sort: 'date' | reverse  %}
 {% for post in sorted %}

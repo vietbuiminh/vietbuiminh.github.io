@@ -2,7 +2,6 @@
 title: "#design"
 layout: main
 ---
-<a class="tag link" href="{{ baseurl }}">{{ page.title }}</a>
 {% assign design-tag-count = 0 %}
 {% assign sorted = site.tags.design | sort: 'date' | reverse  %}
 {% for post in sorted %}

@@ -2,7 +2,6 @@
 title: "#engineering"
 layout: main
 ---
-<a class="tag link" href="{{ baseurl }}">{{ page.title }}</a>
 {% assign engineering-tag-count = 0 %}
 {% assign sorted = site.tags.engineering | sort: 'date' | reverse  %}
 {% for post in sorted %}
