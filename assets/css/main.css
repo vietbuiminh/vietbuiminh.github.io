@@ -96,6 +96,9 @@ nav {
 .navlinks a {
   text-decoration: none;
   color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 3px;
 }
 
 .homelink {
@@ -334,18 +337,22 @@ footer {
 /* Animation for hover */
 .hover-underline-animation {
   position: relative;
+  display: inline-block;  
+  border-radius: 10px;      
+  overflow: hidden;
+  isolation: isolate; 
 }
 
 .hover-underline-animation::after {
   content: "";
   position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 1em;
+  top: 0;
   bottom: 0;
   left: 0;
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: left;
   background-color: var(--highlight);
-  transform-origin: bottom left;
   transition: transform 0.25s ease-out;
   z-index: -1;
 }
