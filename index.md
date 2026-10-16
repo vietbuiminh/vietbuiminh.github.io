@@ -8,11 +8,22 @@ description: Viet M Bui, PhD Student studying the interaction between sea-level 
 
 Welcome to my tiny web corner!
 
-<div class="imgrow">
+<div class="sticker standalone">
+<a>
+<img src="/img/me.png" alt="me now">
+</a>
+</div>
+
+<!-- <div class="imgrow">
         <a class="" target="_blank" href="/">
                 <img src="/img/IMG_4496.jpeg" alt="Me in the water of Whitewater river in Minnesota">
         </a>
-</div>
+        <div class="sticker">
+                <a>
+                <img src="/img/me.png" alt="me now">
+                </a>
+        </div>
+</div> -->
 <br/>
 <br/>
 
