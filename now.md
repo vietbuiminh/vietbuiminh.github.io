@@ -21,4 +21,4 @@ Here is my lovely Pizzaria on the Wheel. I adore this bike brand, and I really e
 <a><img src="/img/pizzaria.png" alt="Pizzaria on the Wheel"></a>
 </div>
 
-I am planning on adding an /ai page into this website to address my stand on the usage of ai and ai in general. It is taking me a while because I am still pondering on my stand. If you want to know more about this plan, it was inspired by [/ai-manifesto](https://www.bydamo.la/p/ai-manifesto)
+The song that stucks with me right now is Camera by Charli xcx. It was just a song I ended up play repeatedly on my 14 hours flight to Vietnam thru Japan. I kept replayed this even on the flight back to the US. I am unsure why I like it, the tone is slow, sad, memorable, and probably of how it makes me feel.

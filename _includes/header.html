@@ -20,13 +20,31 @@
     {% if page.title == "about" or page.title == "art" or page.title == "coding" or page.title == "writing"%}
     <header class="{{ page.title }}-bg lazy">
         {% else %}
+        {% if page.breadcrumb == "now"%}
         <style>
             .page-bg {
                 background: radial-gradient(#000c 0%, #000d),
                 url("{{ page.image | relative_url }}") 50% / cover #0000;
-                background-color: black;
+                background-color: #f8e016;
             }
         </style>
+        {% elsif page.breadcrumb == "ai" %}
+        <style>
+            .page-bg {
+                background: radial-gradient(#000c 0%, #000d),
+                url("{{ page.image | relative_url }}") 50% / cover #0000;
+                background-color: #f816f8;
+            }
+        </style>
+        {% else %}
+        <style>
+            .page-bg {
+                background: radial-gradient(#000c 0%, #000d),
+                url("{{ page.image | relative_url }}") 50% / cover #0000;
+                background-color: #16a9f8;
+            }
+        </style>
+        {% endif %}
         <header class="page-bg lazy">
             {% endif %}
             {% include nav.html %}
