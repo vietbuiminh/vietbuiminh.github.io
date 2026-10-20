@@ -1,0 +1,59 @@
+#!/usr/bin/env bash
+# Convert large staged PNG/JPEG images to WebP and rewrite references to them.
+#
+# Enable once per clone:  git config core.hooksPath .githooks
+# Skip for one commit:    git commit --no-verify
+
+set -euo pipefail
+
+MAX_BYTES=$((500 * 1024))   # convert images larger than this
+MAX_WIDTH=1600              # downscale anything wider than this
+QUALITY=82
+
+# Git GUIs (e.g. VS Code) may not inherit the shell PATH.
+export PATH="/opt/homebrew/bin:/usr/local/bin:/opt/local/bin:$PATH"
+
+if ! command -v cwebp >/dev/null 2>&1; then
+  echo "pre-commit: cwebp not found, skipping image conversion" >&2
+  exit 0
+fi
+
+converted=0
+
+while IFS= read -r -d '' src; do
+  [ -f "$src" ] || continue
+  size=$(wc -c < "$src" | tr -d ' ')
+  [ "$size" -gt "$MAX_BYTES" ] || continue
+
+  dst="${src%.*}.webp"
+  if [ -e "$dst" ]; then
+    echo "pre-commit: $dst already exists, leaving $src alone" >&2
+    continue
+  fi
+
+  width=$(sips -g pixelWidth "$src" 2>/dev/null | awk '/pixelWidth/ {print $2}')
+  resize=()
+  if [ -n "$width" ] && [ "$width" -gt "$MAX_WIDTH" ]; then
+    resize=(-resize "$MAX_WIDTH" 0)
+  fi
+
+  cwebp -quiet -q "$QUALITY" -alpha_q 90 -metadata icc ${resize[@]+"${resize[@]}"} "$src" -o "$dst"
+
+  # Rewrite references in tracked text files, e.g. /img/me.png -> /img/me.webp
+  { git grep -lzF -I "$src" || true; } | while IFS= read -r -d '' file; do
+    OLD="$src" NEW="$dst" perl -pi -e 's/\Q$ENV{OLD}\E/$ENV{NEW}/g' "$file"
+    git add -- "$file"
+  done
+
+  git rm -q --cached -- "$src"
+  rm -f -- "$src"
+  git add -- "$dst"
+
+  new_size=$(wc -c < "$dst" | tr -d ' ')
+  echo "pre-commit: $src ($((size / 1024)) KB) -> $dst ($((new_size / 1024)) KB)"
+  converted=1
+done < <(git diff --cached --name-only -z --diff-filter=AM -- '*.png' '*.PNG' '*.jpg' '*.JPG' '*.jpeg' '*.JPEG')
+
+if [ "$converted" -eq 1 ]; then
+  echo "pre-commit: images converted and staged; review with 'git show' after committing"
+fi

@@ -10,7 +10,7 @@ Welcome to my tiny web corner!
 
 <div class="sticker standalone">
 <a>
-<img src="/img/me.png" alt="me now">
+<img src="/img/me.webp" alt="me now">
 </a>
 </div>
 
@@ -20,7 +20,7 @@ Welcome to my tiny web corner!
         </a>
         <div class="sticker">
                 <a>
-                <img src="/img/me.png" alt="me now">
+                <img src="/img/me.webp" alt="me now">
                 </a>
         </div>
 </div> -->

@@ -18,7 +18,7 @@ Besides that, I'm getting back into biking (not *cycling). My first long-distanc
 Here is my lovely Pizzaria on the Wheel. I adore this bike brand, and I really enjoy fun, quirky bikes.
 
 <div class="sticker standalone">
-<a><img src="/img/pizzaria.png" alt="Pizzaria on the Wheel"></a>
+<a><img src="/img/pizzaria.webp" alt="Pizzaria on the Wheel"></a>
 </div>
 
 The song that stucks with me right now is Camera by Charli xcx. It was just a song I ended up play repeatedly on my 14 hours flight to Vietnam thru Japan. I kept replayed this even on the flight back to the US. I am unsure why I like it, the tone is slow, sad, memorable, and probably of how it makes me feel.
